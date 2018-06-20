@@ -1,6 +1,6 @@
 local sensorInfo = {
-	name = "getAllTransports",
-	desc = "Returns all transports",
+	name = "getAllBoxes",
+	desc = "Returns all owned deathboxes on the map",
 	author = "Krabec",
 	date = "2018-06-20",
 	license = "notAlicense",
@@ -17,21 +17,21 @@ end
 -- @description return table of all transportable allied units
 return function()
 	local allies = Spring.GetTeamUnits(0)
-	transports = {}
-	if bb.transports == nil then
-		bb.transports = {}
+	boxes = {}
+	if bb.boxes == nil then
+		bb.boxes = {}
 	end
 	
 	index = 1
 	for _,value in pairs(allies) do
 		defID = Spring.GetUnitDefID(value)
-		if UnitDefs[defID].isTransport then
-			transports[index] = value
-			if bb.transports[value] == nil then
-				bb.transports[value] = "free"
+		if UnitDefs[defID].humanName == "Box-of-Death" then
+			boxes[index] = value
+			if bb.boxes[value] == nil then
+				bb.boxes[value] = "free"
 			end
 			index = index + 1
 		end
 	end
-	return transports
+	return boxes
 end

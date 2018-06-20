@@ -22,15 +22,15 @@
 			"height": 112,
 			"title": "nota_krabec_exam.MyMove",
 			"width": 241,
-			"x": 508,
-			"y": 104
+			"x": 506,
+			"y": 70
 		},
 		"8ueTZGrXqgCMxignikCvdGMCqkefOyT3": {
 			"height": 94,
 			"title": "store",
 			"width": 375,
-			"x": 512,
-			"y": 13
+			"x": 502,
+			"y": -37
 		},
 		"AQ3WBp2vYEU7m3he9NcEFch9VAQwfHel": {
 			"height": 60,
@@ -39,12 +39,19 @@
 			"x": 310,
 			"y": 31
 		},
+		"LaMoJ7If3JbGksJFNfUZOUioZ8whD2SB": {
+			"height": 92,
+			"title": "store",
+			"width": 219,
+			"x": 513,
+			"y": 585
+		},
 		"ReZMkSl6sy6rwyvq69YiggYFUwkoM9aa": {
 			"height": 94,
 			"title": "store",
 			"width": 474,
-			"x": 494,
-			"y": -89
+			"x": 498,
+			"y": -164
 		},
 		"dGz1BPtALU4quGmHmjfMIqRQxETGz92O": {
 			"height": 92,
@@ -89,7 +96,7 @@
 				"value": "transport"
 			}, {
 				"name": "value",
-				"value": "nota_hw3_krabec_rescue.getFreeTransport(base, units)"
+				"value": "nota_krabec_exam.getFreeTransport()"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -194,6 +201,21 @@
 				"value": "nota_krabec_exam.MyMove"
 			} ],
 			"scriptName": "nota_krabec_exam.MyMove"
+		}, {
+			"children": [],
+			"id": "LaMoJ7If3JbGksJFNfUZOUioZ8whD2SB",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "bb.transports[transport]"
+			}, {
+				"name": "value",
+				"value": "\"free\""
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
 		} ],
 		"id": "AQ3WBp2vYEU7m3he9NcEFch9VAQwfHel",
 		"nodeType": "sequence",

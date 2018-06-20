@@ -27,24 +27,27 @@ end
 
 local SpringGiveOrderToUnit = Spring.GiveOrderToUnit
 local SpringGetUnitPosition = Spring.GetUnitPosition
-running = false
+running = {}
 
 function Run(self, units, parameter)
 	local transport = parameter.transport
 	local x,y,z = SpringGetUnitPosition(transport)
 	local rad = parameter.radius
+	if transport == nil then return SUCCESS end
 	
-	if not running then
-		running = true
+	
+	if running[transport] == nil then
+		running[transport] = true
 		local cmdID = CMD.UNLOAD_UNITS
 		SpringGiveOrderToUnit(transport, cmdID,{x,y,z,rad},{})
 	end
-	if(Spring.GetUnitIsTransporting(transport)[1] == nil) then
+	
+	if( Spring.GetUnitIsTransporting(transport)== nil or Spring.GetUnitIsTransporting(transport)[1] == nil) then
 		return SUCCESS
 	end
 	return RUNNING
 end
 
 function Reset(self)
-	running = false
+	running = {}
 end
