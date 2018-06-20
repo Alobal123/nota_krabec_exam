@@ -43,7 +43,7 @@
 		"VGGBBswqNBCqax0ayBQet4tNmWXqzYEm": {
 			"height": 94,
 			"title": "store",
-			"width": 303,
+			"width": 339,
 			"x": 604,
 			"y": 68
 		},
@@ -135,7 +135,7 @@
 					"value": "_"
 				}, {
 					"name": "value",
-					"value": "nota_krabec_exam.updateBoxes()"
+					"value": "nota_krabec_exam.updateBoxes(fronts)"
 				}, {
 					"name": "scriptName",
 					"value": "store"

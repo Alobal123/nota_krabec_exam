@@ -15,7 +15,7 @@ function getInfo()
 	}
 end
 
-local radius = 500
+local radius = 2000 --TODO constanta
 local enemies = Spring.GetTeamUnits(1)
 local allies = Spring.GetTeamUnits(0)
 

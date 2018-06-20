@@ -2,11 +2,14 @@
 	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
-			"height": 88,
-			"width": 180
+			"height": 108,
+			"width": 216
 		}
 	},
-	"inputs": [],
+	"inputs": [ {
+		"command": "BETS_POSITION",
+		"name": "base"
+	} ],
 	"outputs": [],
 	"properties": {
 		"cj8eG8G4YM32vIk0SO77bTmA872GO6lk": {
@@ -17,9 +20,9 @@
 			"y": 10
 		},
 		"kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR": {
-			"height": 110,
+			"height": 130,
 			"title": "Transport",
-			"width": 143,
+			"width": 309,
 			"x": 492,
 			"y": 52
 		},
@@ -27,8 +30,8 @@
 			"height": 110,
 			"title": "Build",
 			"width": 142,
-			"x": 494,
-			"y": -71
+			"x": 500,
+			"y": -87
 		}
 	},
 	"roles": [ {
@@ -50,8 +53,13 @@
 			"nodeType": "reference",
 			"parameters": [ {
 				"name": "behaviourName",
-				"value": ""
-			} ]
+				"value": "nota_krabec_exam.TransportingBeh"
+			} ],
+			"referenceInputs": [ {
+				"name": "base",
+				"value": "base"
+			} ],
+			"referenceOutputs": []
 		} ],
 		"id": "cj8eG8G4YM32vIk0SO77bTmA872GO6lk",
 		"nodeType": "parallel",

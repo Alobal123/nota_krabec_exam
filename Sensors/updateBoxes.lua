@@ -1,6 +1,6 @@
 local sensorInfo = {
-	name = "getAllBoxes",
-	desc = "Returns all owned deathboxes on the map",
+	name = "updateBoxes",
+	desc = "Returns all boxes which should be transported to new location",
 	author = "Krabec",
 	date = "2018-06-20",
 	license = "notAlicense",
@@ -14,24 +14,23 @@ function getInfo()
 	}
 end
 
--- @description return table of all transportable allied units
-return function()
-	local allies = Spring.GetTeamUnits(0)
-	boxes = {}
-	if bb.boxes == nil then
-		bb.boxes = {}
-	end
-	
-	index = 1
-	for _,value in pairs(allies) do
-		defID = Spring.GetUnitDefID(value)
-		if UnitDefs[defID].humanName == "Box-of-Death" then
-			boxes[index] = value
-			if bb.boxes[value] == nil then
-				bb.boxes[value] = "free"
-			end
-			index = index + 1
+function shouldBeFree(fronts,box)
+	local boxpos = SpringGetUnitPosition(box)
+	for i = 1,5 do 
+		if (Vec3(box):Distance(fronts[i]) < 4000) then--TODO constanta 
+			return false
 		end
 	end
-	return boxes
+	return true
+end
+
+return function(fronts)
+	for key,value in pairs(bb.boxes) do
+		if value = "busy" and Spring.GetUnitTransporter(key) == nil then
+			if shouldBeFree(fronts,key) then
+				bb.boxes[key] = "free"
+			end
+		end
+	end
+	return nil
 end
