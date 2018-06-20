@@ -15,11 +15,11 @@ function getInfo()
 end
 
 -- @description return table of all transportable allied units
-return function(safePlace, units)
+return function()
+	local allies = Spring.GetTeamUnits(0)
 	transports = {}
 	index = 1
-	for i=1,#units do
-		value = units[i]
+	for _,value in pairs(allies) do
 		defID = Spring.GetUnitDefID(value)
 		if UnitDefs[defID].isTransport then
 			transports[index] = value

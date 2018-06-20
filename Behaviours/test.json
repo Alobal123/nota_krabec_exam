@@ -1,0 +1,103 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 216
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_POSITION",
+		"name": "base"
+	} ],
+	"outputs": [],
+	"properties": {
+		"CKshDyentQpiDHD19xuDzSqtzbfYxwfb": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 258,
+			"y": 22
+		},
+		"fv42GR6n8ZHbiELJY19DgDC9dbU6QKKX": {
+			"height": 94,
+			"title": "store",
+			"width": 354,
+			"x": 451,
+			"y": -108
+		},
+		"jVSxLP7fT2352D8ueZbzS1pbfR2lRXEc": {
+			"height": 172,
+			"title": "reference",
+			"width": 260,
+			"x": 450,
+			"y": 81
+		},
+		"lyuOrl9VsjJ0XbtDB7ByH3xgHwrrMDC3": {
+			"height": 94,
+			"title": "store",
+			"width": 412,
+			"x": 438,
+			"y": -16
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "fv42GR6n8ZHbiELJY19DgDC9dbU6QKKX",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "transports"
+			}, {
+				"name": "value",
+				"value": "nota_krabec_exam.getAllTransports()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "lyuOrl9VsjJ0XbtDB7ByH3xgHwrrMDC3",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "resc"
+			}, {
+				"name": "value",
+				"value": "nota_hw3_krabec_rescue.getRescuableUnits(base)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "jVSxLP7fT2352D8ueZbzS1pbfR2lRXEc",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_krabec_exam.transport"
+			} ],
+			"referenceInputs": [ {
+				"name": "toRescue",
+				"value": "resc[1]"
+			}, {
+				"name": "base",
+				"value": "base"
+			}, {
+				"name": "position",
+				"value": "base"
+			} ],
+			"referenceOutputs": []
+		} ],
+		"id": "CKshDyentQpiDHD19xuDzSqtzbfYxwfb",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

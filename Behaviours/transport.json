@@ -1,0 +1,202 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 251
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "toRescue"
+	}, {
+		"command": "Variable",
+		"name": "base"
+	}, {
+		"command": "Variable",
+		"name": "position"
+	} ],
+	"outputs": [],
+	"properties": {
+		"1EXTDTZoz5sGadPxZJWlLf5jTAZlggpD": {
+			"height": 112,
+			"title": "nota_krabec_exam.MyMove",
+			"width": 241,
+			"x": 508,
+			"y": 104
+		},
+		"8ueTZGrXqgCMxignikCvdGMCqkefOyT3": {
+			"height": 94,
+			"title": "store",
+			"width": 375,
+			"x": 512,
+			"y": 13
+		},
+		"AQ3WBp2vYEU7m3he9NcEFch9VAQwfHel": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 310,
+			"y": 31
+		},
+		"ReZMkSl6sy6rwyvq69YiggYFUwkoM9aa": {
+			"height": 94,
+			"title": "store",
+			"width": 474,
+			"x": 494,
+			"y": -89
+		},
+		"dGz1BPtALU4quGmHmjfMIqRQxETGz92O": {
+			"height": 92,
+			"title": "nota_krabec_exam.unload",
+			"width": 230,
+			"x": 508,
+			"y": 391
+		},
+		"j7daZ0wyc9YPLkcI93mTaIAT63X7mN91": {
+			"height": 112,
+			"title": "nota_krabec_exam.MyMove",
+			"width": 241,
+			"x": 504,
+			"y": 482
+		},
+		"jYOBmQilR2FMBRTYNHRuRGGLaLDmOme0": {
+			"height": 112,
+			"title": "nota_krabec_exam.MyMove",
+			"width": 241,
+			"x": 507,
+			"y": 294
+		},
+		"r7QUQBmrpENklthvxRLEPgok4P1qFZcv": {
+			"height": 92,
+			"title": "nota_krabec_exam.load",
+			"width": 214,
+			"x": 508,
+			"y": 198
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "ReZMkSl6sy6rwyvq69YiggYFUwkoM9aa",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "transport"
+			}, {
+				"name": "value",
+				"value": "nota_hw3_krabec_rescue.getFreeTransport(base, units)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "8ueTZGrXqgCMxignikCvdGMCqkefOyT3",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "unitPosition"
+			}, {
+				"name": "value",
+				"value": "nota_krabec_exam.getUnitPosition(toRescue)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "1EXTDTZoz5sGadPxZJWlLf5jTAZlggpD",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "position",
+				"value": "unitPosition"
+			}, {
+				"name": "tolerance",
+				"value": "150"
+			}, {
+				"name": "scriptName",
+				"value": "nota_krabec_exam.MyMove"
+			} ],
+			"scriptName": "nota_krabec_exam.MyMove"
+		}, {
+			"children": [],
+			"id": "r7QUQBmrpENklthvxRLEPgok4P1qFZcv",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transport",
+				"value": "transport"
+			}, {
+				"name": "unit",
+				"value": "toRescue"
+			}, {
+				"name": "scriptName",
+				"value": "nota_krabec_exam.load"
+			} ],
+			"scriptName": "nota_krabec_exam.load"
+		}, {
+			"children": [],
+			"id": "jYOBmQilR2FMBRTYNHRuRGGLaLDmOme0",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "position",
+				"value": "position"
+			}, {
+				"name": "tolerance",
+				"value": "150"
+			}, {
+				"name": "scriptName",
+				"value": "nota_krabec_exam.MyMove"
+			} ],
+			"scriptName": "nota_krabec_exam.MyMove"
+		}, {
+			"children": [],
+			"id": "dGz1BPtALU4quGmHmjfMIqRQxETGz92O",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transport",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_krabec_exam.unload"
+			} ],
+			"scriptName": "nota_krabec_exam.unload"
+		}, {
+			"children": [],
+			"id": "j7daZ0wyc9YPLkcI93mTaIAT63X7mN91",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "position",
+				"value": "base"
+			}, {
+				"name": "tolerance",
+				"value": "500"
+			}, {
+				"name": "scriptName",
+				"value": "nota_krabec_exam.MyMove"
+			} ],
+			"scriptName": "nota_krabec_exam.MyMove"
+		} ],
+		"id": "AQ3WBp2vYEU7m3he9NcEFch9VAQwfHel",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
