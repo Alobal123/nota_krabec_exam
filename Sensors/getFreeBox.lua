@@ -1,5 +1,5 @@
 local sensorInfo = {
-	name = "getFreeBoxes",
+	name = "getFreeBox",
 	desc = "Returns box ready to be transported",
 	author = "Krabec",
 	date = "2018-06-20",

@@ -1,0 +1,63 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"cj8eG8G4YM32vIk0SO77bTmA872GO6lk": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 229,
+			"y": 10
+		},
+		"kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR": {
+			"height": 110,
+			"title": "Transport",
+			"width": 143,
+			"x": 492,
+			"y": 52
+		},
+		"m7XTN6dms4eSMozyYyPJHOZ2he9lM4PR": {
+			"height": 110,
+			"title": "Build",
+			"width": 142,
+			"x": 494,
+			"y": -71
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "m7XTN6dms4eSMozyYyPJHOZ2he9lM4PR",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": ""
+			} ]
+		}, {
+			"children": [],
+			"id": "kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": ""
+			} ]
+		} ],
+		"id": "cj8eG8G4YM32vIk0SO77bTmA872GO6lk",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}
