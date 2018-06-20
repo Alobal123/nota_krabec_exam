@@ -1,8 +1,8 @@
 local sensorInfo = {
-	name = "getFreeTransport",
-	desc = "Returns a transport unit which is not busy",
+	name = "getAllTransports",
+	desc = "Returns all transports",
 	author = "Krabec",
-	date = "2018-05-27",
+	date = "2018-06-20",
 	license = "notAlicense",
 }
 
