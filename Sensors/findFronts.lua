@@ -16,23 +16,21 @@ function getInfo()
 end
 
 local radius = 2000 --TODO constanta
-local enemies = Spring.GetTeamUnits(1)
-local allies = Spring.GetTeamUnits(0)
+local myAllyID = Spring.GetMyAllyTeamID()
+
 
 function getRatio(point)
+	local allUnits = Spring.GetAllUnits()
 	local enemyCount = 0
-	for i=1,#enemies do
+	local allyCount = 0
+	for i=1,#allUnits do
 		if (Vec3(SpringGetUnitPosition(enemies[i])):Distance(point) < radius) then
-			enemyCount = enemyCount + 1
+			local unitAllyID = Spring.GetUnitAllyTeam(allUnits[i])
+			if unitAllyID == myAllyID then allyCount = allyCount + 1
+			else enemyCount = enemyCount + 1 end
 		end
 	end
 	
-	allyCount = 0
-	for i=1,#allies do
-		if (Vec3(SpringGetUnitPosition(allies[i])):Distance(point) < radius) then
-			allyCount = allyCount + 1
-		end
-	end
 	if enemyCount <= 3 or allyCount <= 3 then 	
 		return 1001
 	end
@@ -40,8 +38,8 @@ function getRatio(point)
 end
 
 function getBestCandidate(points) 
-	minimum = 0
-	best = nil
+	local minimum = 0
+	local best = nil
 	for key,value in pairs(points) do
 		if value <= minimum then
 			minimum = value
@@ -53,11 +51,11 @@ end
 
 return function(strongholds, paths)
 	
-	points = {}
+	local points = {}
 	for key,value in pairs(paths) do
 		points[value] = math.abs(getRatio(value) - 1) 
 	end
-	fronts = {}
+	local fronts = {}
 	for i=1,5 do
 		fronts[i] = getBestCandidate(points)
 		points[fronts[i]] = {}

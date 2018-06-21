@@ -23,15 +23,22 @@
 			"height": 130,
 			"title": "Transport",
 			"width": 309,
-			"x": 492,
+			"x": 491,
 			"y": 52
 		},
 		"m7XTN6dms4eSMozyYyPJHOZ2he9lM4PR": {
 			"height": 110,
 			"title": "Build",
-			"width": 142,
+			"width": 278,
 			"x": 500,
 			"y": -87
+		},
+		"pZtiym9LPKKSe8kNrkWIIQplC7tNiOtE": {
+			"height": 130,
+			"title": "MetalCollection",
+			"width": 290,
+			"x": 494,
+			"y": 188
 		}
 	},
 	"roles": [ {
@@ -45,8 +52,10 @@
 			"nodeType": "reference",
 			"parameters": [ {
 				"name": "behaviourName",
-				"value": ""
-			} ]
+				"value": "nota_krabec_exam.BuildingBeh"
+			} ],
+			"referenceInputs": [],
+			"referenceOutputs": []
 		}, {
 			"children": [],
 			"id": "kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR",
@@ -58,6 +67,19 @@
 			"referenceInputs": [ {
 				"name": "base",
 				"value": "base"
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "pZtiym9LPKKSe8kNrkWIIQplC7tNiOtE",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_krabec_exam.CollectingBeh"
+			} ],
+			"referenceInputs": [ {
+				"name": "iter",
+				"value": "21"
 			} ],
 			"referenceOutputs": []
 		} ],
