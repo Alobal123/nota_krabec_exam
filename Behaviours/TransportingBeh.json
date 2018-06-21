@@ -16,15 +16,15 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 604,
-			"y": 171
+			"x": 587,
+			"y": 89
 		},
 		"4XOlQqGODhfxTbLsi1tOASx9ojAlDDTs": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 847,
-			"y": 509
+			"x": 834,
+			"y": 407
 		},
 		"CMNcpychGWe9uea0Du1FDA6YcgrzzPfK": {
 			"height": 60,
@@ -37,15 +37,15 @@
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 852,
-			"y": 668
+			"x": 837,
+			"y": 705
 		},
 		"VGGBBswqNBCqax0ayBQet4tNmWXqzYEm": {
 			"height": 94,
 			"title": "store",
 			"width": 339,
-			"x": 604,
-			"y": 68
+			"x": 609,
+			"y": -28
 		},
 		"aOdByRewa0SpN0QKN572Cq9vqlT0bkom": {
 			"height": 94,
@@ -58,8 +58,8 @@
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 843,
-			"y": 347
+			"x": 829,
+			"y": 256
 		},
 		"fMfxyjFlyeI4ZHjhw1b6nfuWfesf4O6M": {
 			"height": 60,
@@ -68,26 +68,26 @@
 			"x": 255,
 			"y": 17
 		},
-		"rB7jAryE9pC0kGGUV5jfa5b45akrmhJt": {
-			"height": 94,
-			"title": "store",
-			"width": 332,
-			"x": 611,
-			"y": -31
+		"oPD8kCKXqzvd70dyjV8KuhV7fXvAxw5W": {
+			"height": 151,
+			"title": "reference",
+			"width": 260,
+			"x": 836,
+			"y": 560
 		},
 		"uPp91XgjcoH5BWSS1ZTUL3yv60tqqopy": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 848,
-			"y": 824
+			"x": 837,
+			"y": 849
 		},
 		"zQewjbSAoysPnlgAmoSmpl8QqQGIeLCf": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 837,
-			"y": 188
+			"x": 829,
+			"y": 106
 		}
 	},
 	"roles": [ {
@@ -113,26 +113,11 @@
 				"scriptName": "store"
 			}, {
 				"children": [],
-				"id": "rB7jAryE9pC0kGGUV5jfa5b45akrmhJt",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "fronts"
-				}, {
-					"name": "value",
-					"value": "nota_krabec_exam.findFronts()"
-				}, {
-					"name": "scriptName",
-					"value": "store"
-				} ],
-				"scriptName": "store"
-			}, {
-				"children": [],
 				"id": "VGGBBswqNBCqax0ayBQet4tNmWXqzYEm",
 				"nodeType": "luaCommand",
 				"parameters": [ {
 					"name": "var",
-					"value": "_"
+					"value": "fronts"
 				}, {
 					"name": "value",
 					"value": "nota_krabec_exam.updateBoxes(fronts)"
@@ -192,6 +177,22 @@
 					"referenceOutputs": []
 				}, {
 					"children": [],
+					"id": "oPD8kCKXqzvd70dyjV8KuhV7fXvAxw5W",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_krabec_exam.transport"
+					} ],
+					"referenceInputs": [ {
+						"name": "base",
+						"value": "base"
+					}, {
+						"name": "position",
+						"value": "fronts[1]"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
 					"id": "UY9qJ7me5RQouA0vtjk39N64hBg7nKQD",
 					"nodeType": "reference",
 					"parameters": [ {
@@ -203,7 +204,7 @@
 						"value": "base"
 					}, {
 						"name": "position",
-						"value": "fronts[4]"
+						"value": "fronts[2]"
 					} ],
 					"referenceOutputs": []
 				}, {
@@ -219,7 +220,7 @@
 						"value": "base"
 					}, {
 						"name": "position",
-						"value": "fronts[5]"
+						"value": "fronts[3]"
 					} ],
 					"referenceOutputs": []
 				} ],

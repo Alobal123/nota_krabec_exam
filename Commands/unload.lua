@@ -1,6 +1,3 @@
---This command unloads all units. 
--- 
-local testBuildOrder = Spring.TestBuildOrder
 local giveOrderToUnit = Spring.GiveOrderToUnit
 
 function getInfo()
@@ -34,7 +31,6 @@ function Run(self, units, parameter)
 	local x,y,z = SpringGetUnitPosition(transport)
 	local rad = parameter.radius
 	if transport == nil then return SUCCESS end
-	
 	
 	if running[transport] == nil then
 		running[transport] = true

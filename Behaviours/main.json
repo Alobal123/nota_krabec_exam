@@ -12,6 +12,13 @@
 	} ],
 	"outputs": [],
 	"properties": {
+		"8jXaRZSgCvZM5pxC9x8hCZbXwzfdC8P4": {
+			"height": 94,
+			"title": "store",
+			"width": 332,
+			"x": 504,
+			"y": -182
+		},
 		"cj8eG8G4YM32vIk0SO77bTmA872GO6lk": {
 			"height": 70,
 			"title": "parallel",
@@ -31,7 +38,7 @@
 			"title": "Build",
 			"width": 278,
 			"x": 500,
-			"y": -87
+			"y": -78
 		},
 		"pZtiym9LPKKSe8kNrkWIIQplC7tNiOtE": {
 			"height": 130,
@@ -47,6 +54,21 @@
 	} ],
 	"root": {
 		"children": [ {
+			"children": [],
+			"id": "8jXaRZSgCvZM5pxC9x8hCZbXwzfdC8P4",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "_"
+			}, {
+				"name": "value",
+				"value": "nota_krabec_exam.mapUpdate()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
 			"children": [],
 			"id": "m7XTN6dms4eSMozyYyPJHOZ2he9lM4PR",
 			"nodeType": "reference",

@@ -23,13 +23,12 @@ end
 
 function getFreeLane()
 	for i=1,3 do 
-		if checkIfLineIsOccupied(i) then return i end
+		if not checkIfLineIsOccupied(i) then return i end
 	end
 	return nil
 end
 
 
--- @description return table of all transportable allied units
 return function()
 	local teamID = Spring.GetMyTeamID()
 	local allies = Spring.GetTeamUnits(teamID)
@@ -53,7 +52,6 @@ return function()
 			end
 		end
 	end
-	
 	
 	return farcks
 end

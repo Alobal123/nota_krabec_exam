@@ -18,16 +18,6 @@ end
 local radius = 2000 --TODO constanta
 local myAllyID = Spring.GetMyAllyTeamID()
 
-function isSafe(point)
-	local allUnits = Spring.GetAllUnits()
-	for i=1,#allUnits do
-		if (Vec3(SpringGetUnitPosition(enemies[i])):Distance(point) < radius) then
-			local unitAllyID = Spring.GetUnitAllyTeam(allUnits[i])
-			if unitAllyID ~= myAllyID then return false end
-		end
-	end
-	return true
-end
 
 function hasMetal(point) 
 	local x,z = point["x"],point["z"]
@@ -44,7 +34,7 @@ end
 
 return function(lane)
 	for key,value in pairs(lane) do
-		if isSafe(value) and hasMetal(value) then 
+		if bb.paths[i][key]=="safe" and hasMetal(value) then 
 			return value
 		end
 	end

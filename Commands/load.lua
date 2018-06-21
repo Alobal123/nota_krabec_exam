@@ -1,5 +1,4 @@
--- This command loads all units in area nearby position, in radius 
-local testBuildOrder = Spring.TestBuildOrder
+
 local giveOrderToUnit = Spring.GiveOrderToUnit
 
 function getInfo()
@@ -17,7 +16,7 @@ function getInfo()
 				name = "unit",
 				variableType = "expression",
 				componentType = "editBox",
-				defaultValue = "100",
+				defaultValue = "",
 			}
 		
 		}

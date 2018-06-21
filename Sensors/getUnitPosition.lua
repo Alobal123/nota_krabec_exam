@@ -14,7 +14,6 @@ function getInfo()
 	}
 end
 
--- @description return table of all transportable allied units
 return function(unit)
 	return Vec3(Spring.GetUnitPosition(unit))
 end

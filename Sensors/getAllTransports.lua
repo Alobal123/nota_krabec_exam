@@ -22,6 +22,7 @@ return function()
 	if bb.transports == nil then
 		bb.transports = {}
 	end
+	
 	for key,value in pairs(bb.transports) do
 		if not Spring.ValidUnitID(key) then bb.transports[key] = nil end
 	end
