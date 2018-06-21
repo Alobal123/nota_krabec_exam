@@ -1,6 +1,6 @@
 local sensorInfo = {
 	name = "findFronts",
-	desc = "find places on map, where fighting is happenning",
+	desc = "find the first places on map, where fighting is happenning",
 	author = "Krabec",
 	date = "2018-06-20",
 	license = "notAlicense",
