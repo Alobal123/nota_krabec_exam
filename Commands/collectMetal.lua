@@ -36,6 +36,7 @@ function Run(self, units, parameter)
 	local unit = parameter.unit
 	
 	if unit == nil then return SUCCESS end
+	if place == nil then return SUCCESS end
 	
 	if running[unit] == nil then
 		running[unit] = true

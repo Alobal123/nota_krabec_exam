@@ -30,7 +30,16 @@ function isSafe(point)
 end
 
 function hasMetal(point) 
-	
+	local x,z = point["x"],point["z"]
+	local X,Z = math.floor(x/16), math.floor(Z/16)
+	local mRadius = math.floor(radius/16)
+	local amount = 0
+	for dx =-mRadius,mRadius do
+		for dz =-mRadius,mRadius do
+			amount = amount + Spring.GetMetalAmount(X+dx,Z+dz)
+		end
+	end
+	return (amount > 0)
 end
 
 return function(lane)
@@ -39,4 +48,5 @@ return function(lane)
 			return value
 		end
 	end
+	return nil
 end
