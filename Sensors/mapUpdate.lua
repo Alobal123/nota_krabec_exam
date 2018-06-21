@@ -1,7 +1,7 @@
 local sensorInfo = {
 	name = "findFronts",
 	desc = "find places on map, where fighting is happenning",
-	author = "Krabec",
+	author = "Krabec,Petrroll",
 	date = "2018-06-20",
 	license = "notAlicense",
 }
@@ -18,7 +18,8 @@ end
 local radius = 2000 --TODO constanta
 local myAllyID = Spring.GetMyAllyTeamID()
 
-function isSafe(point)
+-- is location far enough from enemies
+function isLocSafe(point)
 	local allUnits = Spring.GetAllUnits()
 	for i=1,#allUnits do
 		if (Vec3(SpringGetUnitPosition(allUnits[i])):Distance(point) < radius) then
@@ -29,15 +30,16 @@ function isSafe(point)
 	return true
 end
 
-function updatePath(i)
+-- update lane map safety information 
+function updateLaneSafety(i)
 	local path = bb.map[i]
 	local dangerStart = false
 	for key,value in pairs(path) do
-		if not dangerStart then
-			if not isSafe(key) then 
-				dangerStart = true
-			end
+
+		if not dangerStart and not isLocSafe(key) then
+			dangerStart = true
 		end
+
 		if dangerStart then
 			path[key] = "danger"
 		else
@@ -47,19 +49,24 @@ function updatePath(i)
 	
 end
 
-return function(strongholds, paths)
-	if bb.map == nil then
-		bb.map = {}
-		bb.map[1] = {}
-		for i = 1,3 do
-			local index = 0
-			for key,value in pairs(paths[i]) do
-				index = index + 1
-				bb.map[i][index] = "danger"
-			end
+-- init map with default values
+function initMap(paths)
+	bb.map = {}
+	for i = 1,3 do
+		-- init lane's map
+		bb.map[i] = {}
+		local index = 1
+		for key,value in pairs(paths[i]) do
+			bb.map[i][index] = "ERR"
+			index = index + 1
 		end
 	end
+end
+
+
+return function(strongholds, paths)
+	if bb.map == nil then initMap(paths) end
 	for i=1,3 do
-		updatePath(i)
+		updateLaneSafety(i)
 	end
 end

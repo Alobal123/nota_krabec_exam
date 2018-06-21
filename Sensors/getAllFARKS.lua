@@ -14,9 +14,9 @@ function getInfo()
 	}
 end
 
-function checkIfLineIsOccupied(n)
+function checkIfLineIsOccupied(laneId)
 	for key,value in pairs(bb.farcks) do
-		if value == n then return true end
+		if value == laneId then return true end
 	end
 	return false
 end
