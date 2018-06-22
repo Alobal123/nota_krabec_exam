@@ -33,7 +33,9 @@ function Run(self, units, parameter)
 	local unit = parameter.unit
 	
 	if unit == nil then return SUCCESS end
-	
+	if bb.boxes[unit]==nil then
+		runningL[transport] = nil
+		return SUCCESS end
 	if runningL[transport] == nil then
 		runningL[transport] = true
 		local cmdID = CMD.LOAD_UNITS
@@ -49,5 +51,5 @@ function Run(self, units, parameter)
 end
 
 function Reset(self)
-	--runningL = {}
+	local runningL = {}
 end

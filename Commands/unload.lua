@@ -55,5 +55,5 @@ function Run(self, units, parameter)
 end
 
 function Reset(self)
-	--runningU = {}
+	local runningU = {}
 end

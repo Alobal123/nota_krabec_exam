@@ -47,8 +47,8 @@
 			"height": 92,
 			"title": "store",
 			"width": 219,
-			"x": 1000,
-			"y": 528
+			"x": 945,
+			"y": 429
 		},
 		"LvL2aWvBXyz2NtQfQhLL94MJKn8moPrz": {
 			"height": 90,
@@ -64,13 +64,6 @@
 			"x": 495,
 			"y": -1
 		},
-		"Og5KZ5iQbYvIvJqy4y6s9okXQaHwKVDV": {
-			"height": 72,
-			"title": "wait",
-			"width": 131,
-			"x": 956,
-			"y": 321
-		},
 		"ReZMkSl6sy6rwyvq69YiggYFUwkoM9aa": {
 			"height": 94,
 			"title": "store",
@@ -82,8 +75,8 @@
 			"height": 112,
 			"title": "nota_krabec_exam.unload",
 			"width": 230,
-			"x": 962,
-			"y": 395
+			"x": 954,
+			"y": 310
 		},
 		"pB5TVYnnZ8HtNpMA4y2OWc0QdhFWC4Mk": {
 			"height": 60,
@@ -103,8 +96,8 @@
 			"height": 92,
 			"title": "store",
 			"width": 219,
-			"x": 998,
-			"y": 617
+			"x": 940,
+			"y": 523
 		},
 		"xicsIgPIj052757frKTACbQmm3cEyDLB": {
 			"height": 92,
@@ -216,14 +209,6 @@
 						"value": "nota_krabec_exam.load"
 					} ],
 					"scriptName": "nota_krabec_exam.load"
-				}, {
-					"children": [],
-					"id": "Og5KZ5iQbYvIvJqy4y6s9okXQaHwKVDV",
-					"nodeType": "wait",
-					"parameters": [ {
-						"name": "time",
-						"value": 1
-					} ]
 				}, {
 					"children": [],
 					"id": "dGz1BPtALU4quGmHmjfMIqRQxETGz92O",
