@@ -54,8 +54,8 @@
 			"height": 92,
 			"title": "store",
 			"width": 219,
-			"x": 944,
-			"y": 783
+			"x": 945,
+			"y": 825
 		},
 		"LvL2aWvBXyz2NtQfQhLL94MJKn8moPrz": {
 			"height": 90,
@@ -71,6 +71,13 @@
 			"x": 495,
 			"y": -1
 		},
+		"Og5KZ5iQbYvIvJqy4y6s9okXQaHwKVDV": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 954,
+			"y": 552
+		},
 		"ReZMkSl6sy6rwyvq69YiggYFUwkoM9aa": {
 			"height": 94,
 			"title": "store",
@@ -82,15 +89,15 @@
 			"height": 92,
 			"title": "nota_krabec_exam.unload",
 			"width": 230,
-			"x": 932,
-			"y": 574
+			"x": 936,
+			"y": 614
 		},
 		"j7daZ0wyc9YPLkcI93mTaIAT63X7mN91": {
 			"height": 112,
 			"title": "nota_krabec_exam.MyMove",
 			"width": 241,
 			"x": 937,
-			"y": 670
+			"y": 700
 		},
 		"jYOBmQilR2FMBRTYNHRuRGGLaLDmOme0": {
 			"height": 112,
@@ -215,6 +222,14 @@
 						"value": "nota_krabec_exam.MyMove"
 					} ],
 					"scriptName": "nota_krabec_exam.MyMove"
+				}, {
+					"children": [],
+					"id": "Og5KZ5iQbYvIvJqy4y6s9okXQaHwKVDV",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 1
+					} ]
 				}, {
 					"children": [],
 					"id": "dGz1BPtALU4quGmHmjfMIqRQxETGz92O",
