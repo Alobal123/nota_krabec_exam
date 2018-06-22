@@ -221,7 +221,7 @@
 						"value": "position"
 					}, {
 						"name": "radius",
-						"value": "500"
+						"value": "800"
 					}, {
 						"name": "scriptName",
 						"value": "nota_krabec_exam.unload"

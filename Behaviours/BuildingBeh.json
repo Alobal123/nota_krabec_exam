@@ -103,7 +103,7 @@
 		"obXAe1e0fTgOhICoVwkcVs1gWL7MxL4v": {
 			"height": 90,
 			"title": "luaCondition",
-			"width": 335,
+			"width": 343,
 			"x": 1193,
 			"y": 358
 		},
@@ -260,7 +260,7 @@
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
-							"value": "#transports <= 6 and 3 * #transports < #boxes"
+							"value": "#transports <= 10 and 3 * #transports < #boxes"
 						}, {
 							"name": "repeat",
 							"value": "true"
