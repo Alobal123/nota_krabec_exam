@@ -29,7 +29,7 @@ return function()
 	local index = 1
 	for _,value in pairs(allies) do
 		local defID = Spring.GetUnitDefID(value)
-		if UnitDefs[defID].humanName == "Box-of-Death" then
+		if UnitDefs[defID].humanName == "Box-of-Death" or UnitDefs[defID].humanName == "Luger" then
 			boxes[index] = value
 			if bb.boxes[value] == nil then
 				bb.boxes[value] = "free"

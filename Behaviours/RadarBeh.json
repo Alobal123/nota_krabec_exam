@@ -12,124 +12,124 @@
 	} ],
 	"outputs": [],
 	"properties": {
-		"4QeNMvEVFOtpQcqq4G3j9qZhpyC941OI": {
-			"height": 60,
-			"title": "repeat",
-			"width": 131,
-			"x": 409,
-			"y": 86
-		},
-		"4mLJGl97hkKBAQxs77Uq5wgjqzuJeQPr": {
-			"height": 130,
-			"title": "reference",
-			"width": 243,
-			"x": 1416,
-			"y": 116
-		},
-		"5DxRWo2F2Gn71ujj91GW6AhVGfBfcg7g": {
-			"height": 130,
-			"title": "reference",
-			"width": 243,
-			"x": 1410,
-			"y": 246
-		},
-		"BdpYMJGYrej4h4x166duART3TvsfihAt": {
+		"2ZNMVOPhflKZBTIEEuiciMMhamAXYirv": {
 			"height": 92,
 			"title": "store",
 			"width": 131,
-			"x": 889,
-			"y": 127
+			"x": 926,
+			"y": 180
 		},
-		"DlwbUctSwVxn0KZcTYANvoiHjH9FUfoY": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 225,
-			"y": 9
-		},
-		"Fi2xuFn5qMKANvlvYjCjbT2LFHWVPMMc": {
-			"height": 72,
-			"title": "waitUntil",
-			"width": 150,
-			"x": 1163,
-			"y": -18
-		},
-		"JdokIveAa6MqDbu1BTFS78dUr0iAi0bA": {
+		"6NqAXzWxdAzzhUvxOTwZ5d6gVdCLgxpk": {
 			"height": 92,
 			"title": "store",
 			"width": 131,
-			"x": 379,
-			"y": -95
+			"x": 1199,
+			"y": -115
 		},
-		"RWiXwlE1qO2nfxGhOyKdkYWbO1jyndb4": {
-			"height": 59,
+		"8KEQx37qxNFtnDGfh3AohDbidAaqBKkb": {
+			"height": 94,
+			"title": "store",
+			"width": 334,
+			"x": 1383,
+			"y": 29
+		},
+		"BjGF7XpRk9ApMZgmUFU2kfQ4Ae3VVyYP": {
+			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 722,
-			"y": 18
+			"x": 771,
+			"y": 151
 		},
-		"RtJcSJIdQsENexAxZAQx2BFEe9oontF1": {
-			"height": 130,
-			"title": "reference",
-			"width": 243,
-			"x": 1415,
-			"y": 376
-		},
-		"WQl1kdeeveG0Fayfz82qWPOsI3qHy1DM": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 1020,
-			"y": -91
-		},
-		"fwTfks6T9CGf5UhuOYzAK5J99IKFTMb7": {
-			"height": 70,
-			"title": "parallel",
-			"width": 202,
-			"x": 1180,
-			"y": 138
-		},
-		"iDsw5wVGQDXUMO7Jv1hyYuq958ewt30E": {
+		"NJ0QrQPgrkfH9wlZqerBeezOQr8taFK3": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
 			"x": 539,
 			"y": 76
 		},
-		"jGYb8CdmjfOkG1Wizqji1nqkYRtU9lIY": {
-			"height": 60,
-			"title": "repeat",
-			"width": 131,
-			"x": 750,
-			"y": 144
+		"OIWwhkiildEpJnZG15Sz1r8KyrHjvGxj": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1180,
+			"y": 138
 		},
-		"nJHaUQfCzDWtbGgNhlR7mw9k30vuUozN": {
-			"height": 92,
-			"title": "store",
-			"width": 131,
-			"x": 1199,
-			"y": -112
-		},
-		"rkrj4VxiAh0lnS2UTzSUxYCPeYbLzpPZ": {
+		"QmFQtBjHWMPR4sJq40PYyPmUGSJCPa6E": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1043,
-			"y": 60
+			"x": 225,
+			"y": 9
 		},
-		"u5KPpFcijnhzx6rsn8G0hR3Rjw1pqulg": {
-			"height": 94,
-			"title": "store",
-			"width": 324,
-			"x": 1383,
-			"y": 29
+		"Xa1IqKqge59SYhKRk1zzJc07fOQclmn9": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 409,
+			"y": 86
 		},
-		"xvdq1d1PiNmMzv4zZWUK1lO2hJzY9GIH": {
+		"ZYkZna4lwL94hvCfSxfDxuJZJTWCuuSo": {
+			"height": 130,
+			"title": "reference",
+			"width": 260,
+			"x": 1430,
+			"y": 131
+		},
+		"aPpWYkFwhI56uNGHONOGd62V5QlwjqWg": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 785,
-			"y": -92
+			"x": 813,
+			"y": -20
+		},
+		"cgIpSrj8sawa9BSe528PPShRROhSJ3su": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 983,
+			"y": 105
+		},
+		"dp0F5Ik6hD2z1aH4CN5vEJjxez8Dfk3l": {
+			"height": 92,
+			"title": "store",
+			"width": 131,
+			"x": 379,
+			"y": -95
+		},
+		"e8SvZgBxVo2z9oJa7ekgIjEDfp8ldEUS": {
+			"height": 130,
+			"title": "reference",
+			"width": 260,
+			"x": 1455,
+			"y": 402
+		},
+		"fMRMkQ7f4eJjBkyOs3VHr41T2ZnQ4j2o": {
+			"height": 130,
+			"title": "reference",
+			"width": 260,
+			"x": 1445,
+			"y": 272
+		},
+		"fzyjOJ5nQsTnXp4HHmLNimZGgKI1hWwY": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1014,
+			"y": -27
+		},
+		"g76pF7fu8wMqVtVKJewaFpuQTYKUN9aO": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 702,
+			"y": -11
+		},
+		"tTW8i27lz1csv1V88rKdLsC50fexn9Dx": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 150,
+			"x": 1163,
+			"y": -18
 		}
 	},
 	"roles": [ {
@@ -139,7 +139,7 @@
 	"root": {
 		"children": [ {
 			"children": [],
-			"id": "JdokIveAa6MqDbu1BTFS78dUr0iAi0bA",
+			"id": "dp0F5Ik6hD2z1aH4CN5vEJjxez8Dfk3l",
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "var",
@@ -159,7 +159,7 @@
 						"children": [ {
 							"children": [ {
 								"children": [],
-								"id": "nJHaUQfCzDWtbGgNhlR7mw9k30vuUozN",
+								"id": "6NqAXzWxdAzzhUvxOTwZ5d6gVdCLgxpk",
 								"nodeType": "luaCommand",
 								"parameters": [ {
 									"name": "var",
@@ -174,7 +174,7 @@
 								"scriptName": "store"
 							}, {
 								"children": [],
-								"id": "Fi2xuFn5qMKANvlvYjCjbT2LFHWVPMMc",
+								"id": "tTW8i27lz1csv1V88rKdLsC50fexn9Dx",
 								"nodeType": "luaCommand",
 								"parameters": [ {
 									"name": "condition",
@@ -185,20 +185,20 @@
 								} ],
 								"scriptName": "waitUntil"
 							} ],
-							"id": "WQl1kdeeveG0Fayfz82qWPOsI3qHy1DM",
+							"id": "fzyjOJ5nQsTnXp4HHmLNimZGgKI1hWwY",
 							"nodeType": "sequence",
 							"parameters": []
 						}, {
 							"children": [ {
 								"children": [],
-								"id": "u5KPpFcijnhzx6rsn8G0hR3Rjw1pqulg",
+								"id": "8KEQx37qxNFtnDGfh3AohDbidAaqBKkb",
 								"nodeType": "luaCommand",
 								"parameters": [ {
 									"name": "var",
-									"value": "farks"
+									"value": "radars"
 								}, {
 									"name": "value",
-									"value": "nota_krabec_exam.getAllFARKS()"
+									"value": "nota_krabec_exam.getAllRadars()"
 								}, {
 									"name": "scriptName",
 									"value": "store"
@@ -207,56 +207,56 @@
 							}, {
 								"children": [ {
 									"children": [],
-									"id": "4mLJGl97hkKBAQxs77Uq5wgjqzuJeQPr",
+									"id": "ZYkZna4lwL94hvCfSxfDxuJZJTWCuuSo",
 									"nodeType": "reference",
 									"parameters": [ {
 										"name": "behaviourName",
-										"value": "nota_krabec_exam.collect"
+										"value": "nota_krabec_exam.radaring"
 									} ],
 									"referenceInputs": [ {
-										"name": "farck",
-										"value": "farks[1]"
+										"name": "radar",
+										"value": "radars[1]"
 									} ],
 									"referenceOutputs": []
 								}, {
 									"children": [],
-									"id": "5DxRWo2F2Gn71ujj91GW6AhVGfBfcg7g",
+									"id": "fMRMkQ7f4eJjBkyOs3VHr41T2ZnQ4j2o",
 									"nodeType": "reference",
 									"parameters": [ {
 										"name": "behaviourName",
-										"value": "nota_krabec_exam.collect"
+										"value": "nota_krabec_exam.radaring"
 									} ],
 									"referenceInputs": [ {
-										"name": "farck",
-										"value": "farks[2]"
+										"name": "radar",
+										"value": "radars[2]"
 									} ],
 									"referenceOutputs": []
 								}, {
 									"children": [],
-									"id": "RtJcSJIdQsENexAxZAQx2BFEe9oontF1",
+									"id": "e8SvZgBxVo2z9oJa7ekgIjEDfp8ldEUS",
 									"nodeType": "reference",
 									"parameters": [ {
 										"name": "behaviourName",
-										"value": "nota_krabec_exam.collect"
+										"value": "nota_krabec_exam.radaring"
 									} ],
 									"referenceInputs": [ {
-										"name": "farck",
-										"value": "farks[3]"
+										"name": "radar",
+										"value": "radars[3]"
 									} ],
 									"referenceOutputs": []
 								} ],
-								"id": "fwTfks6T9CGf5UhuOYzAK5J99IKFTMb7",
+								"id": "OIWwhkiildEpJnZG15Sz1r8KyrHjvGxj",
 								"nodeType": "parallel",
 								"parameters": [ {
 									"name": "mode",
 									"value": "all-success"
 								} ]
 							} ],
-							"id": "rkrj4VxiAh0lnS2UTzSUxYCPeYbLzpPZ",
+							"id": "cgIpSrj8sawa9BSe528PPShRROhSJ3su",
 							"nodeType": "sequence",
 							"parameters": []
 						} ],
-						"id": "xvdq1d1PiNmMzv4zZWUK1lO2hJzY9GIH",
+						"id": "aPpWYkFwhI56uNGHONOGd62V5QlwjqWg",
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
@@ -266,13 +266,13 @@
 							"value": "true"
 						} ]
 					} ],
-					"id": "RWiXwlE1qO2nfxGhOyKdkYWbO1jyndb4",
+					"id": "g76pF7fu8wMqVtVKJewaFpuQTYKUN9aO",
 					"nodeType": "repeat",
 					"parameters": []
 				}, {
 					"children": [ {
 						"children": [],
-						"id": "BdpYMJGYrej4h4x166duART3TvsfihAt",
+						"id": "2ZNMVOPhflKZBTIEEuiciMMhamAXYirv",
 						"nodeType": "luaCommand",
 						"parameters": [ {
 							"name": "var",
@@ -286,22 +286,22 @@
 						} ],
 						"scriptName": "store"
 					} ],
-					"id": "jGYb8CdmjfOkG1Wizqji1nqkYRtU9lIY",
+					"id": "BjGF7XpRk9ApMZgmUFU2kfQ4Ae3VVyYP",
 					"nodeType": "repeat",
 					"parameters": []
 				} ],
-				"id": "iDsw5wVGQDXUMO7Jv1hyYuq958ewt30E",
+				"id": "NJ0QrQPgrkfH9wlZqerBeezOQr8taFK3",
 				"nodeType": "parallel",
 				"parameters": [ {
 					"name": "mode",
 					"value": "all-success"
 				} ]
 			} ],
-			"id": "4QeNMvEVFOtpQcqq4G3j9qZhpyC941OI",
+			"id": "Xa1IqKqge59SYhKRk1zzJc07fOQclmn9",
 			"nodeType": "repeat",
 			"parameters": []
 		} ],
-		"id": "DlwbUctSwVxn0KZcTYANvoiHjH9FUfoY",
+		"id": "QmFQtBjHWMPR4sJq40PYyPmUGSJCPa6E",
 		"nodeType": "sequence",
 		"parameters": []
 	}

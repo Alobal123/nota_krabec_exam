@@ -22,7 +22,7 @@ function getInfo()
 				name = "tolerance",
 				variableType = "expression",
 				componentType = "editBox",
-				defaultValue = "",
+				defaultValue = "100",
 			}
 		}
 	}
@@ -32,15 +32,15 @@ end
 -- speed-ups
 local SpringGiveOrderToUnit = Spring.GiveOrderToUnit
 local SpringGetUnitPosition = Spring.GetUnitPosition
-local runningA = {}
+runningA = {}
 
 function Run(self, units, parameter)
 	local position = parameter.position -- Vec3
 	local unit = parameter.unit
 	local tolerance = parameter.tolerance
-	
+	if position == nil or unit==nil then return SUCCESS end
 	if Spring.GetUnitHealth(unit)==nil then return SUCCESS end
-	if position == nil then return SUCCESS end
+	
 	
 	-- pick the spring command implementing the move
 	local cmdID = CMD.MOVE
@@ -50,7 +50,6 @@ function Run(self, units, parameter)
 		SpringGiveOrderToUnit(unit, cmdID, thisUnitWantedPosition:AsSpringVector(), {})
 		runningA[unit] = true
 	end
-	
 	
 	
 	if (Vec3(SpringGetUnitPosition(unit)):Distance(thisUnitWantedPosition) > tolerance) then
@@ -63,5 +62,5 @@ end
 
 
 function Reset(self)
-	--runningA = {}
+	runningA = {}
 end

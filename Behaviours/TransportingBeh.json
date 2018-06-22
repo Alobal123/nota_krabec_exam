@@ -79,15 +79,15 @@
 			"height": 94,
 			"title": "store",
 			"width": 339,
-			"x": 757,
-			"y": -93
+			"x": 785,
+			"y": -88
 		},
 		"Ve4e9tbEPQNIOIzxYiW8NWQleQ5V9J6f": {
 			"height": 94,
 			"title": "store",
 			"width": 332,
-			"x": 759,
-			"y": -176
+			"x": 823,
+			"y": -182
 		},
 		"Ww2YEJFodCAfzjRzElqg4z9de8d8vIq0": {
 			"height": 60,
@@ -107,7 +107,7 @@
 			"height": 94,
 			"title": "store",
 			"width": 324,
-			"x": 765,
+			"x": 801,
 			"y": -262
 		},
 		"inyDhdKxsbW5kaHl2iop9Lm4oE2yY9N7": {
@@ -142,8 +142,8 @@
 			"height": 94,
 			"title": "store",
 			"width": 374,
-			"x": 756,
-			"y": 3
+			"x": 779,
+			"y": 2
 		},
 		"zQewjbSAoysPnlgAmoSmpl8QqQGIeLCf": {
 			"height": 151,
@@ -199,7 +199,7 @@
 						"value": "fronts"
 					}, {
 						"name": "value",
-						"value": "nota_krabec_exam.findFronts()"
+						"value": "nota_krabec_exam.findFronts(0)"
 					}, {
 						"name": "scriptName",
 						"value": "store"

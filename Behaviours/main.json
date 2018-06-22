@@ -23,6 +23,13 @@
 			"x": 774,
 			"y": -284
 		},
+		"N4Obe8TVomJfFsQ6f9IFacch8MczL97h": {
+			"height": 130,
+			"title": "reference",
+			"width": 267,
+			"x": 608,
+			"y": 354
+		},
 		"cj8eG8G4YM32vIk0SO77bTmA872GO6lk": {
 			"height": 70,
 			"title": "parallel",
@@ -133,6 +140,19 @@
 			"referenceInputs": [ {
 				"name": "base",
 				"value": "missionInfo[\"corridors\"][\"Top\"][\"points\"][1][\"position\"]"
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "N4Obe8TVomJfFsQ6f9IFacch8MczL97h",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_krabec_exam.RadarBeh"
+			} ],
+			"referenceInputs": [ {
+				"name": "iter",
+				"value": "10"
 			} ],
 			"referenceOutputs": []
 		} ],

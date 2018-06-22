@@ -19,11 +19,11 @@ return function()
 
 	for key,value in pairs(bb.boxes) do
 		if value == "atbase" then
-			bb.boxes[key] = "busy"
+			bb.boxes[key] = "transporting"
 			return key
 		end
 		if value == "free" then
-			bb.boxes[key] = "busy"
+			bb.boxes[key] = "transporting"
 			return key
 		end
 		

@@ -26,7 +26,7 @@ end
 return function(fronts, base)
 	for key,value in pairs(bb.boxes) do
 		if Spring.GetUnitTransporter(key) == nil then 
-			if Vec3(Spring.GetUnitPosition(key)):Distance(base) < 1000 then
+			if value ~= "transporting" and Vec3(Spring.GetUnitPosition(key)):Distance(base) < 1000 then
 				bb.boxes[key] = "atbase"
 			elseif value == "busy" and shouldBeFree(fronts,key) then
 				bb.boxes[key] = "free"

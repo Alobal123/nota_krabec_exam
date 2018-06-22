@@ -41,7 +41,7 @@ function Run(self, units, parameter)
 	end
 	
 	if transport == nil then return SUCCESS end
-	if Spring.GetUnitIsTransporting(transport)== nil or Spring.GetUnitIsTransporting(transport)[1] ~= nil then
+	if Spring.GetUnitIsTransporting(transport)== nil or Spring.GetUnitIsTransporting(transport)[1] ~= nil or Spring.GetUnitTransporter(unit) ~= nil then
 		runningL[transport] = nil
 		return SUCCESS
 	end

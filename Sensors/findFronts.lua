@@ -6,7 +6,7 @@ local sensorInfo = {
 	license = "notAlicense",
 }
 
-local EVAL_PERIOD_DEFAULT = 0
+local EVAL_PERIOD_DEFAULT = -1
 local SpringGetUnitPosition = Spring.GetUnitPosition
 
 function getInfo()
@@ -16,16 +16,16 @@ function getInfo()
 end
 
 
-return function()
+return function(safety)
 	local fronts = {}
 	for i = 1,3 do 
 		for key,value in pairs(bb.lanes[i]) do
 			if bb.map[i][key] == "danger" then
-				fronts[i] = bb.lanes[i][key]["position"]
+				fronts[i] = bb.lanes[i][key-safety]["position"]
 				break
 			end
 		end
-		if fronts[i] == nil then fronts[i] = bb.lanes[i][3]["position"] end
+		if fronts[i] == nil then fronts[i] = bb.lanes[i][7-safety]["position"] end
 	end
 	return fronts
 end

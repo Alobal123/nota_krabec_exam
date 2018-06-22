@@ -30,8 +30,9 @@ return function(laneID)
 	if laneID == nil then return nil end
 	local bestpoint = nil
 	for key,value in pairs(bb.lanes[laneID]) do
-		if bb.map[laneID][key]=="safe" then 
-			bestpoint = value
+		if bb.map[laneID][key]=="safe" then
+			if key ==  #bb.lanes[laneID] then bestpoint = bb.lanes[laneID][6]
+			else bestpoint = value end
 			if hasMetal(value["position"]) then
 				return value
 			end

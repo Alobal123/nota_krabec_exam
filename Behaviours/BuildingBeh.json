@@ -9,47 +9,54 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"020ZzkT45yXWRseU9oUjDtRxRL78DTn2": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 216,
+			"x": 1682,
+			"y": 540
+		},
 		"4ag3VMVDL8DUwyxESRk0k4EeM1ZrRiv1": {
 			"height": 72,
 			"title": "nota_krabec_exam.buyUnit",
 			"width": 235,
-			"x": 1214,
+			"x": 1265,
 			"y": 252
 		},
-		"5UGH3TE3H5PVlqb4R1zeNHS8gEgv9DJL": {
-			"height": 94,
-			"title": "store",
-			"width": 300,
-			"x": 539,
-			"y": -71
+		"4pFlSotYAZPptVFzRyrsekoOuJ9WzT2u": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 216,
+			"x": 1513,
+			"y": 301
 		},
 		"8ZfUxnnvh2l1TYQE6giQgvApTFCCFVYW": {
 			"height": 94,
 			"title": "store",
 			"width": 332,
-			"x": 976,
-			"y": 144
+			"x": 1003,
+			"y": 79
 		},
 		"CzDrh0NJyT8liO3YTGbhka5dec2o7Ud3": {
 			"height": 94,
 			"title": "store",
 			"width": 332,
-			"x": 965,
-			"y": 51
+			"x": 1007,
+			"y": -14
 		},
-		"EH8chHtBHQMhaYpdXfB6G6odjKAdwNKT": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 361,
-			"y": 12
+		"DC6GlWHutgSWW1WESDgveMelT8niLDJj": {
+			"height": 72,
+			"title": "nota_krabec_exam.buyUnit",
+			"width": 235,
+			"x": 1888,
+			"y": 450
 		},
 		"NvLp5k6KNrtTsyHYo3UuKQPcgyDXts7Z": {
 			"height": 94,
 			"title": "store",
 			"width": 324,
-			"x": 982,
-			"y": -42
+			"x": 973,
+			"y": -85
 		},
 		"TvIG7RU90KAumbi7iTW4IzBtXHRSP1Fu": {
 			"height": 72,
@@ -58,40 +65,54 @@
 			"x": 1719,
 			"y": 387
 		},
-		"VFQSgBIma6RFpSd0NB6UFPw6xWncIAem": {
-			"height": 90,
-			"title": "luaCondition",
-			"width": 265,
-			"x": 507,
-			"y": 114
+		"XYEcSbPTf21TYHDUjAkDMGU3YoeI23qq": {
+			"height": 94,
+			"title": "store",
+			"width": 332,
+			"x": 1012,
+			"y": 162
 		},
 		"YKCkXVqb8mKQLX5uLx3BhSPshoJWvllO": {
 			"height": 72,
 			"title": "nota_krabec_exam.buyUnit",
 			"width": 235,
-			"x": 1450,
-			"y": 318
+			"x": 1719,
+			"y": 211
 		},
 		"ZGuIDL99FPMITJw8Z5eRsAzxvtO8BYNZ": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 972,
-			"y": 293
+			"x": 971,
+			"y": 338
+		},
+		"bvm3Iw6RXrA6QMU8WCZ3Dbx9uRE1Dal9": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 750,
+			"y": 254
 		},
 		"jlHw4TZNmnB8fqMmlPNXBE2AkYNaAfr9": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 782,
-			"y": 124
+			"x": 550,
+			"y": 62
 		},
-		"knynqzcO71sp5aae0GyOUYui0opWQkBe": {
+		"klBj5C59X0M2XCksud59VAAgAAURf6Lv": {
 			"height": 72,
 			"title": "nota_krabec_exam.buyUnit",
 			"width": 235,
-			"x": 1727,
-			"y": 478
+			"x": 987,
+			"y": 249
+		},
+		"m3aL5dPS6HdN8am2papaEK2mAA5KRWXm": {
+			"height": 72,
+			"title": "nota_krabec_exam.buyUnit",
+			"width": 235,
+			"x": 1930,
+			"y": 552
 		},
 		"obXAe1e0fTgOhICoVwkcVs1gWL7MxL4v": {
 			"height": 90,
@@ -101,11 +122,18 @@
 			"y": 358
 		},
 		"sEvB3QpwyAQ3JMZMag8LoUI6ejd0OmIu": {
-			"height": 60,
+			"height": 113,
 			"title": "repeat",
-			"width": 131,
+			"width": 148,
 			"x": 210,
 			"y": 16
+		},
+		"uMvZFlrmrJPhYy5o9iRHu7Ym2Qtjy8dR": {
+			"height": 72,
+			"title": "nota_krabec_exam.buyUnit",
+			"width": 235,
+			"x": 1761,
+			"y": 313
 		},
 		"yTV7CHVtHs716MD1Kbqw4b2UuoLVnbdC": {
 			"height": 90,
@@ -123,14 +151,59 @@
 		"children": [ {
 			"children": [ {
 				"children": [],
-				"id": "5UGH3TE3H5PVlqb4R1zeNHS8gEgv9DJL",
+				"id": "NvLp5k6KNrtTsyHYo3UuKQPcgyDXts7Z",
 				"nodeType": "luaCommand",
 				"parameters": [ {
 					"name": "var",
-					"value": "metalAmount"
+					"value": "transports"
 				}, {
 					"name": "value",
-					"value": "core.TeamMetal()"
+					"value": "nota_krabec_exam.getAllTransports()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "CzDrh0NJyT8liO3YTGbhka5dec2o7Ud3",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "boxes"
+				}, {
+					"name": "value",
+					"value": "nota_krabec_exam.getAllBoxes()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "8ZfUxnnvh2l1TYQE6giQgvApTFCCFVYW",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "farks"
+				}, {
+					"name": "value",
+					"value": "nota_krabec_exam.getAllFARKS()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "XYEcSbPTf21TYHDUjAkDMGU3YoeI23qq",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "radars"
+				}, {
+					"name": "value",
+					"value": "nota_krabec_exam.getAllRadars()"
 				}, {
 					"name": "scriptName",
 					"value": "store"
@@ -138,65 +211,32 @@
 				"scriptName": "store"
 			}, {
 				"children": [ {
+					"children": [],
+					"id": "klBj5C59X0M2XCksud59VAAgAAURf6Lv",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unitName",
+						"value": "'armseer'"
+					}, {
+						"name": "scriptName",
+						"value": "nota_krabec_exam.buyUnit"
+					} ],
+					"scriptName": "nota_krabec_exam.buyUnit"
+				}, {
 					"children": [ {
 						"children": [],
-						"id": "NvLp5k6KNrtTsyHYo3UuKQPcgyDXts7Z",
+						"id": "4ag3VMVDL8DUwyxESRk0k4EeM1ZrRiv1",
 						"nodeType": "luaCommand",
 						"parameters": [ {
-							"name": "var",
-							"value": "transports"
-						}, {
-							"name": "value",
-							"value": "nota_krabec_exam.getAllTransports()"
+							"name": "unitName",
+							"value": "'armfark'"
 						}, {
 							"name": "scriptName",
-							"value": "store"
+							"value": "nota_krabec_exam.buyUnit"
 						} ],
-						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "CzDrh0NJyT8liO3YTGbhka5dec2o7Ud3",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "boxes"
-						}, {
-							"name": "value",
-							"value": "nota_krabec_exam.getAllBoxes()"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "8ZfUxnnvh2l1TYQE6giQgvApTFCCFVYW",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "farks"
-						}, {
-							"name": "value",
-							"value": "nota_krabec_exam.getAllFARKS()"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
+						"scriptName": "nota_krabec_exam.buyUnit"
 					}, {
 						"children": [ {
-							"children": [],
-							"id": "4ag3VMVDL8DUwyxESRk0k4EeM1ZrRiv1",
-							"nodeType": "luaCommand",
-							"parameters": [ {
-								"name": "unitName",
-								"value": "'armfark'"
-							}, {
-								"name": "scriptName",
-								"value": "nota_krabec_exam.buyUnit"
-							} ],
-							"scriptName": "nota_krabec_exam.buyUnit"
-						}, {
 							"children": [ {
 								"children": [],
 								"id": "YKCkXVqb8mKQLX5uLx3BhSPshoJWvllO",
@@ -210,21 +250,44 @@
 								} ],
 								"scriptName": "nota_krabec_exam.buyUnit"
 							}, {
+								"children": [],
+								"id": "uMvZFlrmrJPhYy5o9iRHu7Ym2Qtjy8dR",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "unitName",
+									"value": "'armmart'"
+								}, {
+									"name": "scriptName",
+									"value": "nota_krabec_exam.buyUnit"
+								} ],
+								"scriptName": "nota_krabec_exam.buyUnit"
+							} ],
+							"id": "4pFlSotYAZPptVFzRyrsekoOuJ9WzT2u",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "math.fmod(#boxes, 2) == 0"
+							}, {
+								"name": "repeat",
+								"value": "true"
+							} ]
+						}, {
+							"children": [ {
+								"children": [],
+								"id": "TvIG7RU90KAumbi7iTW4IzBtXHRSP1Fu",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "unitName",
+									"value": "'armatlas'"
+								}, {
+									"name": "scriptName",
+									"value": "nota_krabec_exam.buyUnit"
+								} ],
+								"scriptName": "nota_krabec_exam.buyUnit"
+							}, {
 								"children": [ {
 									"children": [],
-									"id": "TvIG7RU90KAumbi7iTW4IzBtXHRSP1Fu",
-									"nodeType": "luaCommand",
-									"parameters": [ {
-										"name": "unitName",
-										"value": "'armatlas'"
-									}, {
-										"name": "scriptName",
-										"value": "nota_krabec_exam.buyUnit"
-									} ],
-									"scriptName": "nota_krabec_exam.buyUnit"
-								}, {
-									"children": [],
-									"id": "knynqzcO71sp5aae0GyOUYui0opWQkBe",
+									"id": "DC6GlWHutgSWW1WESDgveMelT8niLDJj",
 									"nodeType": "luaCommand",
 									"parameters": [ {
 										"name": "unitName",
@@ -234,52 +297,70 @@
 										"value": "nota_krabec_exam.buyUnit"
 									} ],
 									"scriptName": "nota_krabec_exam.buyUnit"
+								}, {
+									"children": [],
+									"id": "m3aL5dPS6HdN8am2papaEK2mAA5KRWXm",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "unitName",
+										"value": "'armmart'"
+									}, {
+										"name": "scriptName",
+										"value": "nota_krabec_exam.buyUnit"
+									} ],
+									"scriptName": "nota_krabec_exam.buyUnit"
 								} ],
-								"id": "yTV7CHVtHs716MD1Kbqw4b2UuoLVnbdC",
+								"id": "020ZzkT45yXWRseU9oUjDtRxRL78DTn2",
 								"nodeType": "luaCondition",
 								"parameters": [ {
 									"name": "expression",
-									"value": "3 * #transports < #boxes"
+									"value": "math.fmod(#boxes, 2) == 0"
 								}, {
 									"name": "repeat",
 									"value": "true"
 								} ]
 							} ],
-							"id": "obXAe1e0fTgOhICoVwkcVs1gWL7MxL4v",
+							"id": "yTV7CHVtHs716MD1Kbqw4b2UuoLVnbdC",
 							"nodeType": "luaCondition",
 							"parameters": [ {
 								"name": "expression",
-								"value": "#transports >= 6"
+								"value": "3 * #transports < #boxes"
 							}, {
 								"name": "repeat",
 								"value": "true"
 							} ]
 						} ],
-						"id": "ZGuIDL99FPMITJw8Z5eRsAzxvtO8BYNZ",
+						"id": "obXAe1e0fTgOhICoVwkcVs1gWL7MxL4v",
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
-							"value": "#farks<3"
+							"value": "#transports >= 10"
 						}, {
 							"name": "repeat",
 							"value": "true"
 						} ]
 					} ],
-					"id": "jlHw4TZNmnB8fqMmlPNXBE2AkYNaAfr9",
-					"nodeType": "sequence",
-					"parameters": []
+					"id": "ZGuIDL99FPMITJw8Z5eRsAzxvtO8BYNZ",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "#farks<3"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
 				} ],
-				"id": "VFQSgBIma6RFpSd0NB6UFPw6xWncIAem",
+				"id": "bvm3Iw6RXrA6QMU8WCZ3Dbx9uRE1Dal9",
 				"nodeType": "luaCondition",
 				"parameters": [ {
 					"name": "expression",
-					"value": "metalAmount[\"currentLevel\"] > 300"
+					"value": "#radars<3"
 				}, {
 					"name": "repeat",
 					"value": "true"
 				} ]
 			} ],
-			"id": "EH8chHtBHQMhaYpdXfB6G6odjKAdwNKT",
+			"id": "jlHw4TZNmnB8fqMmlPNXBE2AkYNaAfr9",
 			"nodeType": "sequence",
 			"parameters": []
 		} ],

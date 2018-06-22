@@ -1,0 +1,80 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 216
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "radar"
+	} ],
+	"outputs": [],
+	"properties": {
+		"IsyRGXDxc2SoYz2ryEdXXgLiffHraVSQ": {
+			"height": 94,
+			"title": "store",
+			"width": 332,
+			"x": 545,
+			"y": -67
+		},
+		"LxefWayLNJ0ND5BvZPaCnU60C1XrCgP0": {
+			"height": 112,
+			"title": "nota_krabec_exam.MyMove",
+			"width": 249,
+			"x": 579,
+			"y": 58
+		},
+		"nnClO3aBUW41mJlaArwOn58zX4fwv87f": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 300,
+			"y": 21
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "IsyRGXDxc2SoYz2ryEdXXgLiffHraVSQ",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "fronts"
+			}, {
+				"name": "value",
+				"value": "nota_krabec_exam.findFronts(1)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "LxefWayLNJ0ND5BvZPaCnU60C1XrCgP0",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit",
+				"value": "radar"
+			}, {
+				"name": "position",
+				"value": "fronts[bb.radars[radar]]"
+			}, {
+				"name": "tolerance",
+				"value": "200"
+			}, {
+				"name": "scriptName",
+				"value": "nota_krabec_exam.MyMove"
+			} ],
+			"scriptName": "nota_krabec_exam.MyMove"
+		} ],
+		"id": "nnClO3aBUW41mJlaArwOn58zX4fwv87f",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
