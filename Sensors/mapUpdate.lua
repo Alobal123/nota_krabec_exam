@@ -15,7 +15,7 @@ function getInfo()
 	}
 end
 
-local radius = 2000 --TODO constanta
+local radius = 1000 --TODO constanta
 local myAllyID = Spring.GetMyAllyTeamID()
 
 -- is location far enough from enemies
@@ -32,18 +32,18 @@ end
 
 -- update lane map safety information 
 function updateLaneSafety(i)
-	local path = bb.map[i]
+	local path = bb.lanes[i]
 	local dangerStart = false
 	for key,value in pairs(path) do
 
-		if not dangerStart and not isLocSafe(key) then
+		if not dangerStart and not isLocSafe(value["position"]) then
 			dangerStart = true
 		end
 
 		if dangerStart then
-			path[key] = "danger"
+			bb.map[i][key] = "danger"
 		else
-			path[key] = "safe"
+			bb.map[i][key] = "safe"
 		end
 	end
 	
@@ -52,19 +52,20 @@ end
 -- init map with default values
 function initMap(paths)
 	bb.map = {}
+	bb.lanes = {paths["Top"]["points"],paths["Middle"]["points"],paths["Bottom"]["points"]}
 	for i = 1,3 do
 		-- init lane's map
 		bb.map[i] = {}
 		local index = 1
-		for key,value in pairs(paths[i]) do
-			bb.map[i][index] = "ERR"
+		for key,value in pairs(bb.lanes[i]) do
+			bb.map[i][index] = "danger"
 			index = index + 1
 		end
 	end
 end
 
 
-return function(strongholds, paths)
+return function(paths)
 	if bb.map == nil then initMap(paths) end
 	for i=1,3 do
 		updateLaneSafety(i)

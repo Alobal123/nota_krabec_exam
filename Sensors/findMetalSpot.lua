@@ -6,7 +6,7 @@ local sensorInfo = {
 	license = "notAlicense",
 }
 
-local EVAL_PERIOD_DEFAULT = 10
+local EVAL_PERIOD_DEFAULT = -1
 local SpringGetUnitPosition = Spring.GetUnitPosition
 
 function getInfo()
@@ -15,28 +15,27 @@ function getInfo()
 	}
 end
 
-local radius = 2000 --TODO constanta
+local radius = 500 --TODO constanta
 local myAllyID = Spring.GetMyAllyTeamID()
 
 
 function hasMetal(point) 
 	local x,z = point["x"],point["z"]
-	local X,Z = math.floor(x/16), math.floor(Z/16)
-	local mRadius = math.floor(radius/16)
-	local amount = 0
-	for dx =-mRadius,mRadius do
-		for dz =-mRadius,mRadius do
-			amount = amount + Spring.GetMetalAmount(X+dx,Z+dz)
-		end
-	end
-	return (amount > 0)
+	--local amount = 0
+	local features = Spring.GetFeaturesInSphere(x,Spring.GetGroundHeight(x,z),z,radius)
+	return (#features > 0)
 end
 
-return function(lane)
-	for key,value in pairs(lane) do
-		if bb.paths[i][key]=="safe" and hasMetal(value) then 
-			return value
+return function(laneID)
+	if laneID == nil then return nil end
+	local bestpoint = nil
+	for key,value in pairs(bb.lanes[laneID]) do
+		if bb.map[laneID][key]=="safe" then 
+			bestpoint = value
+			if hasMetal(value["position"]) then
+				return value
+			end
 		end
 	end
-	return nil
+	return bestpoint
 end

@@ -6,46 +6,57 @@
 			"width": 216
 		}
 	},
-	"inputs": [ {
-		"command": "BETS_POSITION",
-		"name": "base"
-	} ],
+	"inputs": [],
 	"outputs": [],
 	"properties": {
 		"8jXaRZSgCvZM5pxC9x8hCZbXwzfdC8P4": {
 			"height": 94,
 			"title": "store",
-			"width": 332,
-			"x": 504,
-			"y": -182
+			"width": 440,
+			"x": 780,
+			"y": -184
+		},
+		"BkARmTCsqdUG6aK7BQ6Jh3HmIXH6oms9": {
+			"height": 94,
+			"title": "store",
+			"width": 300,
+			"x": 774,
+			"y": -284
 		},
 		"cj8eG8G4YM32vIk0SO77bTmA872GO6lk": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 229,
-			"y": 10
+			"x": 304,
+			"y": -22
 		},
 		"kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR": {
 			"height": 130,
 			"title": "Transport",
-			"width": 309,
-			"x": 491,
-			"y": 52
+			"width": 424,
+			"x": 586,
+			"y": 212
 		},
 		"m7XTN6dms4eSMozyYyPJHOZ2he9lM4PR": {
 			"height": 110,
 			"title": "Build",
 			"width": 278,
-			"x": 500,
-			"y": -78
+			"x": 590,
+			"y": -73
 		},
 		"pZtiym9LPKKSe8kNrkWIIQplC7tNiOtE": {
 			"height": 130,
 			"title": "MetalCollection",
 			"width": 290,
-			"x": 494,
-			"y": 188
+			"x": 593,
+			"y": 57
+		},
+		"ygAAh7bA2ExuaNABBsV2UHwxsi8mdjSP": {
+			"height": 76,
+			"title": "repeat",
+			"width": 194,
+			"x": 556,
+			"y": -181
 		}
 	},
 	"roles": [ {
@@ -55,19 +66,39 @@
 	"root": {
 		"children": [ {
 			"children": [],
-			"id": "8jXaRZSgCvZM5pxC9x8hCZbXwzfdC8P4",
+			"id": "BkARmTCsqdUG6aK7BQ6Jh3HmIXH6oms9",
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "var",
-				"value": "_"
+				"value": "missionInfo"
 			}, {
 				"name": "value",
-				"value": "nota_krabec_exam.mapUpdate()"
+				"value": "core.MissionInfo()"
 			}, {
 				"name": "scriptName",
 				"value": "store"
 			} ],
 			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "8jXaRZSgCvZM5pxC9x8hCZbXwzfdC8P4",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "_"
+				}, {
+					"name": "value",
+					"value": "nota_krabec_exam.mapUpdate(missionInfo[\"corridors\"])"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "ygAAh7bA2ExuaNABBsV2UHwxsi8mdjSP",
+			"nodeType": "repeat",
+			"parameters": []
 		}, {
 			"children": [],
 			"id": "m7XTN6dms4eSMozyYyPJHOZ2he9lM4PR",
@@ -80,19 +111,6 @@
 			"referenceOutputs": []
 		}, {
 			"children": [],
-			"id": "kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_krabec_exam.TransportingBeh"
-			} ],
-			"referenceInputs": [ {
-				"name": "base",
-				"value": "base"
-			} ],
-			"referenceOutputs": []
-		}, {
-			"children": [],
 			"id": "pZtiym9LPKKSe8kNrkWIIQplC7tNiOtE",
 			"nodeType": "reference",
 			"parameters": [ {
@@ -101,7 +119,20 @@
 			} ],
 			"referenceInputs": [ {
 				"name": "iter",
-				"value": "21"
+				"value": "20"
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "kKMGArHJQbwYhFfOWdKw0QVhLUyl75UR",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_krabec_exam.TransportingBeh"
+			} ],
+			"referenceInputs": [ {
+				"name": "base",
+				"value": "missionInfo[\"corridors\"][\"Top\"][\"points\"][1][\"position\"]"
 			} ],
 			"referenceOutputs": []
 		} ],

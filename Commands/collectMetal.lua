@@ -24,9 +24,9 @@ function getInfo()
 	}
 end
 
-running = {}
+runningF = {}
 local SpringGiveOrderToUnit = Spring.GiveOrderToUnit
-local radius = 2000
+local radius = 500
 
 
 function Run(self, units, parameter)
@@ -36,17 +36,18 @@ function Run(self, units, parameter)
 	
 	if unit == nil then return SUCCESS end
 	if place == nil then return SUCCESS end
-	
-	if running[unit] == nil then
-		running[unit] = true
+	place = place["position"]
+	if runningF[unit] == nil then
+		runningF[unit] = true
 		local cmdID = CMD.RECLAIM
 		x,y,z = place["x"],place["y"],place["z"]
-		SpringGiveOrderToUnit(unit, cmdID,{x,y,z,radius},{})
+		SpringGiveOrderToUnit(unit, CMD.MOVE,{x,y,z},{})
+		SpringGiveOrderToUnit(unit, cmdID,{x,y,z,radius},{"shift"})
 	end
 	
 	return RUNNING
 end
 
 function Reset(self)
-	running = {}
+	runningF = {}
 end

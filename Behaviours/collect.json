@@ -12,20 +12,6 @@
 	} ],
 	"outputs": [],
 	"properties": {
-		"BOrdX11TH9jBZJijBFYbVYs85QI0MXVb": {
-			"height": 94,
-			"title": "store",
-			"width": 334,
-			"x": 554,
-			"y": -17
-		},
-		"Tk2LU1JYiklo4Bv9g90q6qBejiQXhU5q": {
-			"height": 92,
-			"title": "store",
-			"width": 131,
-			"x": 565,
-			"y": -111
-		},
 		"dy4evv0treUGxaOfFhWGawVgpqyx9cp3": {
 			"height": 60,
 			"title": "sequence",
@@ -34,11 +20,11 @@
 			"y": 13
 		},
 		"y3vD1iCnRNtNFXqqK0uYUC7Px4m1oLWI": {
-			"height": 92,
+			"height": 94,
 			"title": "nota_krabec_exam.collectMetal",
-			"width": 262,
-			"x": 545,
-			"y": 95
+			"width": 405,
+			"x": 560,
+			"y": 15
 		}
 	},
 	"roles": [ {
@@ -48,36 +34,6 @@
 	"root": {
 		"children": [ {
 			"children": [],
-			"id": "Tk2LU1JYiklo4Bv9g90q6qBejiQXhU5q",
-			"nodeType": "luaCommand",
-			"parameters": [ {
-				"name": "var",
-				"value": "lane"
-			}, {
-				"name": "value",
-				"value": ""
-			}, {
-				"name": "scriptName",
-				"value": "store"
-			} ],
-			"scriptName": "store"
-		}, {
-			"children": [],
-			"id": "BOrdX11TH9jBZJijBFYbVYs85QI0MXVb",
-			"nodeType": "luaCommand",
-			"parameters": [ {
-				"name": "var",
-				"value": "place"
-			}, {
-				"name": "value",
-				"value": "nota_krabec_exam.findMetalSpot(lane)"
-			}, {
-				"name": "scriptName",
-				"value": "store"
-			} ],
-			"scriptName": "store"
-		}, {
-			"children": [],
 			"id": "y3vD1iCnRNtNFXqqK0uYUC7Px4m1oLWI",
 			"nodeType": "luaCommand",
 			"parameters": [ {
@@ -85,7 +41,7 @@
 				"value": "farck"
 			}, {
 				"name": "place",
-				"value": "place"
+				"value": "nota_krabec_exam.findMetalSpot(bb.farcks[farck])"
 			}, {
 				"name": "scriptName",
 				"value": "nota_krabec_exam.collectMetal"

@@ -32,33 +32,36 @@ end
 -- speed-ups
 local SpringGiveOrderToUnit = Spring.GiveOrderToUnit
 local SpringGetUnitPosition = Spring.GetUnitPosition
-running = {}
+local runningA = {}
 
 function Run(self, units, parameter)
 	local position = parameter.position -- Vec3
 	local unit = parameter.unit
 	local tolerance = parameter.tolerance
 	
+	if Spring.GetUnitHealth(unit)==nil then return SUCCESS end
+	if position == nil then return SUCCESS end
+	
 	-- pick the spring command implementing the move
 	local cmdID = CMD.MOVE
-	if running[unit] == nil then	
+	if runningA[unit] == nil then	
 		local x,z = position["x"],position["z"]
 		thisUnitWantedPosition = Vec3(x,Spring.GetGroundHeight(x,z),z)
-		SpringGiveOrderToUnit(unit, cmdID, thisUnitWantedPosition:AsSpringVector(), {"shift"})
-		running[unit] = true
+		SpringGiveOrderToUnit(unit, cmdID, thisUnitWantedPosition:AsSpringVector(), {})
+		runningA[unit] = true
 	end
 	
-	if Spring.GetUnitHealth(unit)==nil then return SUCCESS end
+	
 	
 	if (Vec3(SpringGetUnitPosition(unit)):Distance(thisUnitWantedPosition) > tolerance) then
 			return RUNNING
 	end
 	
-	running[unit] = nil
+	runningA[unit] = nil
 	return SUCCESS
 end
 
 
 function Reset(self)
-	running = {}
+	--runningA = {}
 end

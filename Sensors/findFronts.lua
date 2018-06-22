@@ -15,18 +15,17 @@ function getInfo()
 	}
 end
 
-local radius = 2000 --TODO constanta
-local myAllyID = Spring.GetMyAllyTeamID()
 
-return function(strongholds, paths)
+return function()
 	local fronts = {}
 	for i = 1,3 do 
-		for key,value in pairs(paths[i]) do
+		for key,value in pairs(bb.lanes[i]) do
 			if bb.map[i][key] == "danger" then
-				fronts[i] = value
+				fronts[i] = bb.lanes[i][key]["position"]
 				break
 			end
 		end
+		if fronts[i] == nil then fronts[i] = bb.lanes[i][3]["position"] end
 	end
 	return fronts
 end

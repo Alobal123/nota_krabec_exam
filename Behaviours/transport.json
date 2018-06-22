@@ -36,19 +36,19 @@
 			"x": 932,
 			"y": 112
 		},
-		"A3BYN4xXVSeJeajRqdzuF0Ef3Xd6aoqM": {
-			"height": 54,
-			"title": "success",
-			"width": 132,
-			"x": 759,
-			"y": 94
-		},
 		"AQ3WBp2vYEU7m3he9NcEFch9VAQwfHel": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
 			"x": 275,
 			"y": 30
+		},
+		"CYEG5JDPyNr0A4dz8hHaYbysSWspFnyh": {
+			"height": 92,
+			"title": "store",
+			"width": 219,
+			"x": 844,
+			"y": 31
 		},
 		"LaMoJ7If3JbGksJFNfUZOUioZ8whD2SB": {
 			"height": 92,
@@ -75,8 +75,8 @@
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 947,
-			"y": 552
+			"x": 959,
+			"y": 561
 		},
 		"ReZMkSl6sy6rwyvq69YiggYFUwkoM9aa": {
 			"height": 94,
@@ -96,8 +96,8 @@
 			"height": 112,
 			"title": "nota_krabec_exam.MyMove",
 			"width": 241,
-			"x": 933,
-			"y": 711
+			"x": 938,
+			"y": 720
 		},
 		"jYOBmQilR2FMBRTYNHRuRGGLaLDmOme0": {
 			"height": 112,
@@ -110,8 +110,8 @@
 			"height": 92,
 			"title": "nota_krabec_exam.load",
 			"width": 214,
-			"x": 940,
-			"y": 351
+			"x": 938,
+			"y": 338
 		}
 	},
 	"roles": [ {
@@ -152,9 +152,19 @@
 		}, {
 			"children": [ {
 				"children": [],
-				"id": "A3BYN4xXVSeJeajRqdzuF0Ef3Xd6aoqM",
-				"nodeType": "success",
-				"parameters": []
+				"id": "CYEG5JDPyNr0A4dz8hHaYbysSWspFnyh",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.transports[transport]"
+				}, {
+					"name": "value",
+					"value": "\"free\""
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
 			}, {
 				"children": [ {
 					"children": [],
@@ -183,7 +193,7 @@
 						"value": "unitPosition"
 					}, {
 						"name": "tolerance",
-						"value": "150"
+						"value": "250"
 					}, {
 						"name": "scriptName",
 						"value": "nota_krabec_exam.MyMove"
@@ -216,7 +226,7 @@
 						"value": "position"
 					}, {
 						"name": "tolerance",
-						"value": "150"
+						"value": "250"
 					}, {
 						"name": "scriptName",
 						"value": "nota_krabec_exam.MyMove"
@@ -239,7 +249,7 @@
 						"value": "transport"
 					}, {
 						"name": "radius",
-						"value": "100"
+						"value": "500"
 					}, {
 						"name": "scriptName",
 						"value": "nota_krabec_exam.unload"

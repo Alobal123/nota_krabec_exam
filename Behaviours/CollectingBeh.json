@@ -33,19 +33,12 @@
 			"x": 1410,
 			"y": 246
 		},
-		"AYdvnCsrMiyz80Q198jYdZXhV1gvP9gv": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 556,
-			"y": 87
-		},
 		"BdpYMJGYrej4h4x166duART3TvsfihAt": {
 			"height": 92,
 			"title": "store",
 			"width": 131,
-			"x": 749,
-			"y": -41
+			"x": 889,
+			"y": 127
 		},
 		"DlwbUctSwVxn0KZcTYANvoiHjH9FUfoY": {
 			"height": 60,
@@ -79,8 +72,8 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 980,
-			"y": -40
+			"x": 978,
+			"y": -28
 		},
 		"fwTfks6T9CGf5UhuOYzAK5J99IKFTMb7": {
 			"height": 70,
@@ -88,6 +81,20 @@
 			"width": 202,
 			"x": 1180,
 			"y": 138
+		},
+		"iDsw5wVGQDXUMO7Jv1hyYuq958ewt30E": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 539,
+			"y": 76
+		},
+		"jGYb8CdmjfOkG1Wizqji1nqkYRtU9lIY": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 750,
+			"y": 144
 		},
 		"nJHaUQfCzDWtbGgNhlR7mw9k30vuUozN": {
 			"height": 92,
@@ -114,8 +121,8 @@
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 736,
-			"y": 71
+			"x": 758,
+			"y": -6
 		}
 	},
 	"roles": [ {
@@ -141,21 +148,6 @@
 		}, {
 			"children": [ {
 				"children": [ {
-					"children": [],
-					"id": "BdpYMJGYrej4h4x166duART3TvsfihAt",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "i"
-					}, {
-						"name": "value",
-						"value": "i-1"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
-				}, {
 					"children": [ {
 						"children": [ {
 							"children": [],
@@ -260,15 +252,38 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "i==0"
+						"value": "i<=0"
 					}, {
 						"name": "repeat",
 						"value": "true"
 					} ]
+				}, {
+					"children": [ {
+						"children": [],
+						"id": "BdpYMJGYrej4h4x166duART3TvsfihAt",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "i"
+						}, {
+							"name": "value",
+							"value": "i-1"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					} ],
+					"id": "jGYb8CdmjfOkG1Wizqji1nqkYRtU9lIY",
+					"nodeType": "repeat",
+					"parameters": []
 				} ],
-				"id": "AYdvnCsrMiyz80Q198jYdZXhV1gvP9gv",
-				"nodeType": "sequence",
-				"parameters": []
+				"id": "iDsw5wVGQDXUMO7Jv1hyYuq958ewt30E",
+				"nodeType": "parallel",
+				"parameters": [ {
+					"name": "mode",
+					"value": "all-success"
+				} ]
 			} ],
 			"id": "4QeNMvEVFOtpQcqq4G3j9qZhpyC941OI",
 			"nodeType": "repeat",

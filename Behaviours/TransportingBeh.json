@@ -12,82 +12,145 @@
 	} ],
 	"outputs": [],
 	"properties": {
+		"0bF1vZCw1KHtIr8jIV274L6abzAOh8hX": {
+			"height": 151,
+			"title": "reference",
+			"width": 260,
+			"x": 978,
+			"y": 269
+		},
+		"11BusH0WZrsqHSXmfRn13MwZxnQwGZ9n": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 739,
+			"y": 886
+		},
 		"2eOz205oEgT3EnZszznPt5GSZ09N812n": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 587,
-			"y": 89
+			"x": 502,
+			"y": 166
 		},
-		"4XOlQqGODhfxTbLsi1tOASx9ojAlDDTs": {
-			"height": 151,
-			"title": "reference",
-			"width": 260,
-			"x": 834,
-			"y": 407
-		},
-		"CMNcpychGWe9uea0Du1FDA6YcgrzzPfK": {
+		"3WwIQnC86p34x32Xt5wCXmq9abGP38Sk": {
 			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 418,
-			"y": 17
+			"title": "repeat",
+			"width": 131,
+			"x": 762,
+			"y": 366
 		},
-		"UY9qJ7me5RQouA0vtjk39N64hBg7nKQD": {
+		"8jPlkdg0JbM3xgYG9PmjEeG9zDD0jQ6J": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 837,
-			"y": 705
+			"x": 947,
+			"y": 899
+		},
+		"F4DMBFuyIUAtsGKWE2ULvFqMcRE18dIA": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 759,
+			"y": 727
+		},
+		"Fd0hhjbPYe434tABRDGJDmLNgMpEZ7KZ": {
+			"height": 151,
+			"title": "reference",
+			"width": 260,
+			"x": 967,
+			"y": 740
+		},
+		"HhUD2nktMOGdCtiCQfmKAfFGSde7T8FS": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 246,
+			"y": 21
+		},
+		"QNgAMacs6aUzfB10wnGqbFoBnLgUAiRL": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 754,
+			"y": 568
 		},
 		"VGGBBswqNBCqax0ayBQet4tNmWXqzYEm": {
 			"height": 94,
 			"title": "store",
 			"width": 339,
+			"x": 757,
+			"y": -93
+		},
+		"Ve4e9tbEPQNIOIzxYiW8NWQleQ5V9J6f": {
+			"height": 94,
+			"title": "store",
+			"width": 332,
+			"x": 759,
+			"y": -176
+		},
+		"Ww2YEJFodCAfzjRzElqg4z9de8d8vIq0": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
 			"x": 609,
-			"y": -28
+			"y": -43
+		},
+		"XnoJDuBwzOmaRnSrjZATcwxgimNOKtJ9": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 770,
+			"y": 256
 		},
 		"aOdByRewa0SpN0QKN572Cq9vqlT0bkom": {
 			"height": 94,
 			"title": "store",
 			"width": 324,
-			"x": 610,
-			"y": -124
+			"x": 765,
+			"y": -262
 		},
-		"eEbuLN8ENJMGpUbVCwqtGIODiaHNA71P": {
+		"inyDhdKxsbW5kaHl2iop9Lm4oE2yY9N7": {
+			"height": 56,
+			"title": "repeat",
+			"width": 131,
+			"x": 477,
+			"y": -37
+		},
+		"w0BBdanA9eSddaGMWK71jtosh4CFwj1u": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 829,
-			"y": 256
+			"x": 985,
+			"y": 423
 		},
-		"fMfxyjFlyeI4ZHjhw1b6nfuWfesf4O6M": {
+		"xByaIa0I6zlwYZos3K6joQFIqPiyZR0b": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 255,
-			"y": 17
+			"x": 791,
+			"y": 158
 		},
-		"oPD8kCKXqzvd70dyjV8KuhV7fXvAxw5W": {
+		"xkv00lb4M96J3bNCwXZ4vf2vhMg34NTs": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 836,
-			"y": 560
+			"x": 962,
+			"y": 581
 		},
-		"uPp91XgjcoH5BWSS1ZTUL3yv60tqqopy": {
-			"height": 151,
-			"title": "reference",
-			"width": 260,
-			"x": 837,
-			"y": 849
+		"yGHeZ9kfaYtP0MHiZoi0K9TJCumUF11f": {
+			"height": 94,
+			"title": "store",
+			"width": 374,
+			"x": 756,
+			"y": 3
 		},
 		"zQewjbSAoysPnlgAmoSmpl8QqQGIeLCf": {
 			"height": 151,
 			"title": "reference",
 			"width": 260,
-			"x": 829,
-			"y": 106
+			"x": 978,
+			"y": 114
 		}
 	},
 	"roles": [ {
@@ -97,36 +160,76 @@
 	"root": {
 		"children": [ {
 			"children": [ {
-				"children": [],
-				"id": "aOdByRewa0SpN0QKN572Cq9vqlT0bkom",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "_"
+				"children": [ {
+					"children": [],
+					"id": "aOdByRewa0SpN0QKN572Cq9vqlT0bkom",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "_"
+					}, {
+						"name": "value",
+						"value": "nota_krabec_exam.getAllTransports()"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
 				}, {
-					"name": "value",
-					"value": "nota_krabec_exam.getAllTransports()"
+					"children": [],
+					"id": "Ve4e9tbEPQNIOIzxYiW8NWQleQ5V9J6f",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "_"
+					}, {
+						"name": "value",
+						"value": "nota_krabec_exam.getAllBoxes()"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
 				}, {
-					"name": "scriptName",
-					"value": "store"
+					"children": [],
+					"id": "VGGBBswqNBCqax0ayBQet4tNmWXqzYEm",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "fronts"
+					}, {
+						"name": "value",
+						"value": "nota_krabec_exam.findFronts()"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "yGHeZ9kfaYtP0MHiZoi0K9TJCumUF11f",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "_"
+					}, {
+						"name": "value",
+						"value": "nota_krabec_exam.updateBoxes(fronts,base)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
 				} ],
-				"scriptName": "store"
-			}, {
-				"children": [],
-				"id": "VGGBBswqNBCqax0ayBQet4tNmWXqzYEm",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "fronts"
-				}, {
-					"name": "value",
-					"value": "nota_krabec_exam.updateBoxes(fronts)"
-				}, {
-					"name": "scriptName",
-					"value": "store"
-				} ],
-				"scriptName": "store"
-			}, {
+				"id": "Ww2YEJFodCAfzjRzElqg4z9de8d8vIq0",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "inyDhdKxsbW5kaHl2iop9Lm4oE2yY9N7",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
 				"children": [ {
 					"children": [],
 					"id": "zQewjbSAoysPnlgAmoSmpl8QqQGIeLCf",
@@ -140,103 +243,131 @@
 						"value": "base"
 					}, {
 						"name": "position",
-						"value": "fronts[1]"
-					} ],
-					"referenceOutputs": []
-				}, {
-					"children": [],
-					"id": "eEbuLN8ENJMGpUbVCwqtGIODiaHNA71P",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_krabec_exam.transport"
-					} ],
-					"referenceInputs": [ {
-						"name": "base",
-						"value": "base"
-					}, {
-						"name": "position",
 						"value": "fronts[2]"
-					} ],
-					"referenceOutputs": []
-				}, {
-					"children": [],
-					"id": "4XOlQqGODhfxTbLsi1tOASx9ojAlDDTs",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_krabec_exam.transport"
-					} ],
-					"referenceInputs": [ {
-						"name": "base",
-						"value": "base"
-					}, {
-						"name": "position",
-						"value": "fronts[3]"
-					} ],
-					"referenceOutputs": []
-				}, {
-					"children": [],
-					"id": "oPD8kCKXqzvd70dyjV8KuhV7fXvAxw5W",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_krabec_exam.transport"
-					} ],
-					"referenceInputs": [ {
-						"name": "base",
-						"value": "base"
-					}, {
-						"name": "position",
-						"value": "fronts[1]"
-					} ],
-					"referenceOutputs": []
-				}, {
-					"children": [],
-					"id": "UY9qJ7me5RQouA0vtjk39N64hBg7nKQD",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_krabec_exam.transport"
-					} ],
-					"referenceInputs": [ {
-						"name": "base",
-						"value": "base"
-					}, {
-						"name": "position",
-						"value": "fronts[2]"
-					} ],
-					"referenceOutputs": []
-				}, {
-					"children": [],
-					"id": "uPp91XgjcoH5BWSS1ZTUL3yv60tqqopy",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_krabec_exam.transport"
-					} ],
-					"referenceInputs": [ {
-						"name": "base",
-						"value": "base"
-					}, {
-						"name": "position",
-						"value": "fronts[3]"
 					} ],
 					"referenceOutputs": []
 				} ],
-				"id": "2eOz205oEgT3EnZszznPt5GSZ09N812n",
-				"nodeType": "parallel",
-				"parameters": [ {
-					"name": "mode",
-					"value": "all-success"
-				} ]
+				"id": "xByaIa0I6zlwYZos3K6joQFIqPiyZR0b",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "0bF1vZCw1KHtIr8jIV274L6abzAOh8hX",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_krabec_exam.transport"
+					} ],
+					"referenceInputs": [ {
+						"name": "base",
+						"value": "base"
+					}, {
+						"name": "position",
+						"value": "fronts[2]"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "XnoJDuBwzOmaRnSrjZATcwxgimNOKtJ9",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "w0BBdanA9eSddaGMWK71jtosh4CFwj1u",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_krabec_exam.transport"
+					} ],
+					"referenceInputs": [ {
+						"name": "base",
+						"value": "base"
+					}, {
+						"name": "position",
+						"value": "fronts[2]"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "3WwIQnC86p34x32Xt5wCXmq9abGP38Sk",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "xkv00lb4M96J3bNCwXZ4vf2vhMg34NTs",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_krabec_exam.transport"
+					} ],
+					"referenceInputs": [ {
+						"name": "base",
+						"value": "base"
+					}, {
+						"name": "position",
+						"value": "fronts[2]"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "QNgAMacs6aUzfB10wnGqbFoBnLgUAiRL",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "Fd0hhjbPYe434tABRDGJDmLNgMpEZ7KZ",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_krabec_exam.transport"
+					} ],
+					"referenceInputs": [ {
+						"name": "base",
+						"value": "base"
+					}, {
+						"name": "position",
+						"value": "fronts[2]"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "F4DMBFuyIUAtsGKWE2ULvFqMcRE18dIA",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "8jPlkdg0JbM3xgYG9PmjEeG9zDD0jQ6J",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_krabec_exam.transport"
+					} ],
+					"referenceInputs": [ {
+						"name": "base",
+						"value": "base"
+					}, {
+						"name": "position",
+						"value": "fronts[2]"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "11BusH0WZrsqHSXmfRn13MwZxnQwGZ9n",
+				"nodeType": "repeat",
+				"parameters": []
 			} ],
-			"id": "CMNcpychGWe9uea0Du1FDA6YcgrzzPfK",
-			"nodeType": "sequence",
-			"parameters": []
+			"id": "2eOz205oEgT3EnZszznPt5GSZ09N812n",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
 		} ],
-		"id": "fMfxyjFlyeI4ZHjhw1b6nfuWfesf4O6M",
-		"nodeType": "repeat",
-		"parameters": []
+		"id": "HhUD2nktMOGdCtiCQfmKAfFGSde7T8FS",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
 	}
 }

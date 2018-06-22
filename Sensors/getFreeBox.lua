@@ -18,7 +18,10 @@ end
 return function()
 
 	for key,value in pairs(bb.boxes) do
-
+		if value == "atbase" then
+			bb.boxes[key] = "busy"
+			return key
+		end
 		if value == "free" then
 			bb.boxes[key] = "busy"
 			return key

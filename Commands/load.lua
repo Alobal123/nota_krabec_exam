@@ -24,7 +24,7 @@ function getInfo()
 	}
 end
 
-running = {}
+local runningL = {}
 local SpringGiveOrderToUnit = Spring.GiveOrderToUnit
 
 function Run(self, units, parameter)
@@ -34,19 +34,20 @@ function Run(self, units, parameter)
 	
 	if unit == nil then return SUCCESS end
 	
-	if running[transport] == nil then
-		running[transport] = true
+	if runningL[transport] == nil then
+		runningL[transport] = true
 		local cmdID = CMD.LOAD_UNITS
 		SpringGiveOrderToUnit(transport, cmdID,{unit},{})
 	end
 	
 	if transport == nil then return SUCCESS end
 	if Spring.GetUnitIsTransporting(transport)== nil or Spring.GetUnitIsTransporting(transport)[1] ~= nil then
+		runningL[transport] = nil
 		return SUCCESS
 	end
 	return RUNNING
 end
 
 function Reset(self)
-	running = {}
+	--runningL = {}
 end

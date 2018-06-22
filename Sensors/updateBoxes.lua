@@ -6,7 +6,7 @@ local sensorInfo = {
 	license = "notAlicense",
 }
 
-local EVAL_PERIOD_DEFAULT = 0
+local EVAL_PERIOD_DEFAULT = -1
 
 function getInfo()
 	return {
@@ -15,21 +15,23 @@ function getInfo()
 end
 
 function shouldBeFree(fronts,box)
-	local boxpos = SpringGetUnitPosition(box)
-	for i = 1,5 do 
-		if (Vec3(box):Distance(fronts[i]) < 4000) then--TODO constanta 
+	for i = 1,3 do 
+		if Vec3(Spring.GetUnitPosition(box)):Distance(fronts[i]) < 500 then--TODO constanta 
 			return false
 		end
 	end
 	return true
 end
 
-return function(fronts)
+return function(fronts, base)
 	for key,value in pairs(bb.boxes) do
-		if value = "busy" and Spring.GetUnitTransporter(key) == nil then
-			if shouldBeFree(fronts,key) then
+		if Spring.GetUnitTransporter(key) == nil then 
+			if Vec3(Spring.GetUnitPosition(key)):Distance(base) < 1000 then
+				bb.boxes[key] = "atbase"
+			elseif value == "busy" and shouldBeFree(fronts,key) then
 				bb.boxes[key] = "free"
 			end
+			
 		end
 	end
 	return nil
