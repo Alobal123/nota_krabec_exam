@@ -20,8 +20,8 @@
 			"height": 94,
 			"title": "store",
 			"width": 332,
-			"x": 621,
-			"y": 84
+			"x": 617,
+			"y": 90
 		},
 		"CzDrh0NJyT8liO3YTGbhka5dec2o7Ud3": {
 			"height": 94,
@@ -34,8 +34,8 @@
 			"height": 72,
 			"title": "echo",
 			"width": 145,
-			"x": 1349,
-			"y": 304
+			"x": 1366,
+			"y": 319
 		},
 		"NvLp5k6KNrtTsyHYo3UuKQPcgyDXts7Z": {
 			"height": 94,
@@ -83,8 +83,8 @@
 			"height": 72,
 			"title": "echo",
 			"width": 138,
-			"x": 1357,
-			"y": 391
+			"x": 1363,
+			"y": 405
 		},
 		"yTV7CHVtHs716MD1Kbqw4b2UuoLVnbdC": {
 			"height": 90,
@@ -211,7 +211,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "#transports >= 5"
+						"value": "#transports >= 6"
 					}, {
 						"name": "repeat",
 						"value": "true"
